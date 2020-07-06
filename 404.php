@@ -20,21 +20,28 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
     
+	<!-- Custom Style -->
 	<link href="/assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/header-footer.css" rel="stylesheet">
    
   </head>
   <body>
-	
-	<div class="container" style="margin-top: 0;">
-			<div class="row text-center">
-				<br>
-				<p class="tomato" style="font-size:150px; width:100%;"><b>404</b></p>
-				<p style="font-size:50px; width:100%;"><i>Sorry, the page you tried cannot be found.</i></p>
-				<br><br>
+	  
+	<?php include './layout/header.php' ?>
+	  
+	<section class="not-found">
+		<div class="container d-flex align-items-center" style="margin-top: 0; min-height: 75vh;">
+			<div class="w-100 text-center">
+				<h1><b>404</b></h1>
+				<p><i>Sorry, the page you tried cannot be found.</i></p>
+				<div class="text-center my-5">
+					<a href="/" class="btn btn--green btn--round btn--main">Go Home</a>
+				</div>
 			</div>
 		</div>
-	<br><br>
-	</div>
+	</section>
+	
+    <?php include './layout/footer.php' ?>
 	
 	<script src="/assets/js/jquery.min.js"></script>
 	<script src="/assets/js/bootstrap.min.js"></script>
