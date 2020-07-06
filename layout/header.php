@@ -27,7 +27,7 @@
         </div>
         
         <nav class="navbar navbar-expand-lg p-lg-0">
-            <div class="collapse navbar-collapse pb-3" id="navbarHeader">
+            <div class="collapse navbar-collapse pb-3 pb-lg-0" id="navbarHeader">
                 <ul class="navbar-nav justify-content-between w-100">
                     <li class="nav-item <?php active('') ?>">
                         <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
