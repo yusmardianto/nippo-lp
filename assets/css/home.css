@@ -1,6 +1,7 @@
 /* hero */
 .hero {
     background: url("/assets/img/bg-home.png") center/cover no-repeat;
+    background-color: #267E74;
     min-height: 675px;
     display: flex;
     align-items: flex-end;
