@@ -1,0 +1,141 @@
+/* feature hero */
+.features-hero {
+    background: url('/assets/img/bg-features.png') center/cover no-repeat;
+    min-height: 280px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+.features-hero h1 {
+    font-size: 24px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #fff;
+}
+/* end feature hero */
+
+/* features point */
+.features-point .features-point__item-wrapper > div:not(:last-child) {
+    margin-bottom: 45px;
+}
+.features-point .features-point__item {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.features-point .features-point__item .item__number {
+    min-width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 60px;
+    max-width: 60px;
+    margin-right: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.features-point .features-point__item .item__content > h4 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.features-point .features-point__item .item__content > p {
+    line-height: 40px;
+}
+
+.features-point .features-point__img {
+    position: relative;
+}
+.features-point .features-point__img::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    height: 100%;
+    z-index: -1;
+    background-color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+    .features-hero h1 {
+        font-size: 20px;
+    }
+
+    .features-point .features-point__item .item__number {
+        min-width: 40px;
+        height: 40px;
+    }
+    
+    .features-point .features-point__item .item__number > h3 {
+        font-size: 1.5rem;
+    }
+
+    .features-point .features-point__item .item__content > h4 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }    
+}
+/* end features point */
+
+/* features faq */
+.features-faq {
+    background-color: #f4f4f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-faq .features-faq__item {
+    margin-bottom: 20px;
+}
+
+.features-faq .btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    border-radius: 8px;
+    padding: 7px 40px 7px 15px;
+    margin-bottom: -7px;
+    text-align: left;
+    background-position-x: calc(100% - 15px);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    white-space: normal;
+}
+
+.features-faq .btn[aria-expanded='false'] {
+    color: #000;
+    background-image: url('/assets/icon/plus.svg');
+    background-position-y: 13px;
+}
+
+.features-faq .btn[aria-expanded='true'] {
+    color: #fff;
+    background-image: url('/assets/icon/min.svg');
+    background-position-y: 18px;
+}
+
+.features-faq .btn:focus {
+    box-shadow: none;
+}
+
+.features-faq .features-faq__item .card {
+    border-radius: 0 0 8px 8px;
+    border: none;
+    background: linear-gradient(var(--primary), var(--primary)) 1.25rem calc(50% + 3px)/ 4px calc(100% - 2.5rem - 7px) no-repeat, #e5e5e5;
+    padding-top: calc(1.25rem + 7px);
+    padding-left: 2.25rem;
+}
+/* end features faq */

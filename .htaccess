@@ -1,0 +1,16 @@
+# Uncomment the following to prevent the httpoxy vulnerability
+# See: https://httpoxy.org/
+<ifModule mod_headers.c>
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Frame-Options: "SAMEORIGIN"
+Header set X-Content-Type-Options: "nosniff"
+Header set X-Powered-By: ""
+Header set Cache-Control "no-cache, no-store, post-check=0, pre-check=0"
+Header set Pragma "public"
+Header set Expires "Thu, 19 Nov 1981 08:52:00 GMT"
+</ifModule>
+
+RewriteEngine on
+ErrorDocument 404 /404.php
+
+
