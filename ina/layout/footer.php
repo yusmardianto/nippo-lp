@@ -43,21 +43,21 @@
                     <dic class="col-md-6">
                         <h5>Layanan</h5>
                         <ul>
-                            <li><a target="_blank" href="https://www.logique.co.id/en/services/web-dev.php">Website Production Service</a></li>
-                            <li><a target="_blank" href="https://www.logique.co.id/en/services/system-dev.php">Web System Development Service</a></li>
-                            <li><a target="_blank" href="https://www.logique.co.id/en/services/mobile-app-dev.php">Pengembangan Aplikasi Mobile</a></li>
-                            <li><a target="_blank" href="https://www.logique.co.id/en/services/penetration-test.php">Penetration Testing Service</a></li>
-                            <li><a target="_blank" href="https://www.logique.co.id/en/services/digital-marketing/seo-service.php">Digital Marketing / SEO</a></li>
+                            <li><a target="_blank" href="https://www.logique.co.id/layanan/web-dev.php">Pembuatan Website</a></li>
+                            <li><a target="_blank" href="https://www.logique.co.id/layanan/pembuatan-sistem-web.php">Pengembangan Sistem Web</a></li>
+                            <li><a target="_blank" href="https://www.logique.co.id/en/services/mobile-app-dev.php">Apps Development Service</a></li>
+                            <li><a target="_blank" href="https://www.logique.co.id/layanan/penetration-test.php">Keamanan Website (Pentest)</a></li>
+                            <li><a target="_blank" href="https://www.logique.co.id/layanan/digital-marketing/jasa-seo.php">Digital Marketing / SEO</a></li>
                         </ul>
                     </dic>
                     <dic class="col-md-6">
                         <h5>Produk</h5>
                         <ul>
-                            <li><a target="_blank" href="https://dokodemo-kerja.com">Dokodemo Kerja <br>
+                            <li><a target="_blank" href="https://dokodemo-kerja.com/ind/">Dokodemo Kerja <br>
                             (Sistem Aplikasi Kerja Remote)</a></li>
                             <li><a target="_blank" href="/">Nippo <br>
                             (Sistem Aplikasi Laporan Pegawai)</a></li>
-                            <li><a target="_blank" href="https://www.logique.co.id/en/product/sugoi-saiyo.php">Sugoi Saiyo <br>
+                            <li><a target="_blank" href="https://www.logique.co.id/produk/sugoi-saiyo.php">Sugoi Saiyo <br>
                             (Sistem Aplikasi Perekrutan Pegawai)</a></li>
                         </ul>
                     </dic>

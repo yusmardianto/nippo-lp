@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,8 +52,8 @@
 
     <section class="contact__headline">
         <div class="container text-center">
-            <h1>Contact us</h1>
-            <p>For more information about Nippo, <br>please contact us by filling out the form below.</p>
+            <h1>Hubungi Kami</h1>
+            <p>Untuk informasi lebih lanjut tentang Nippo, <br>hubungilah kami dengan mengisi formulir dibawah ini.</p>
         </div>
     </section>
 
@@ -64,15 +64,15 @@
                     <form action="">
                         <div class="row">
                             <div class="col-md-6">
-                                <label for="contact_name">Name <span class="text-danger">*</span></label>
+                                <label for="contact_name">Nama <span class="text-danger">*</span></label>
                                 <input class="form-control" type="text" id="contact_name" required>
                             </div>
                             <div class="col-md-6">
-                                <label for="contact_company">Company <span class="text-danger">*</span></label>
+                                <label for="contact_company">Perusahaan <span class="text-danger">*</span></label>
                                 <input class="form-control" type="text" id="contact_company" required>
                             </div>
                             <div class="col-md-6">
-                                <label for="contact_phone">Phone No. <span class="text-danger">*</span></label>
+                                <label for="contact_phone">Nomor Telp. <span class="text-danger">*</span></label>
                                 <input class="form-control" type="tel" id="contact_phone" required>
                             </div>
                             <div class="col-md-6">
@@ -80,11 +80,11 @@
                                 <input class="form-control" type="email" id="contact_email" required>
                             </div>
                             <div class="col-md-12">
-                                <label for="contact_message">Message <span class="text-danger">*</span></label>
+                                <label for="contact_message">Pesan <span class="text-danger">*</span></label>
                                 <textarea class="form-control" name="contact_message" id="contact_message" rows="4" required></textarea>
                             </div>
                             <div class="col text-center text-md-left">
-                                <button class="btn btn--green btn--round btn--main" type="submit">Submit &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></button>
+                                <button class="btn btn--green btn--round btn--main" type="submit">Kirim &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></button>
                             </div>
                         </div>
                     </form>
@@ -95,8 +95,8 @@
 
     <section class="contact__footer">
         <div class="container text-center">
-            <p>If you want an immediate response, get in touch with us during office hours: <br>
-            <b>09.00 - 17.00 (Mon-Fri)</b></p>            
+            <p>Untuk respon langsung, hubungi kami pada jam kantor: <br>
+            <b>09.00 - 17.00 (Senin - Jumat)</b></p>            
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#"><img src="/assets/icon/mail.svg" alt=""></a></li>
                 <li class="list-inline-item"><a href="#"><img src="/assets/icon/phone.svg" alt=""></a></li>

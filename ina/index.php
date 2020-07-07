@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,19 +43,18 @@
 	</script> -->
 
   </head>
-  
-  <?php $page = ''; ?>
 
+  <?php $page = ''; ?>
+  
   <body>
     
     <?php include './layout/header.php' ?>
-
     <section class="mb-5 hero">
         <div class="container">
             <div class="row">
                 <div class="col-11 col-md-7 col-lg-5">
                     <div class="hero__text">
-                        <h1>A Daily Reporting Tool that manages man-hour cost effectiveness and conducts employee evaluations through daily reports.</h1>
+                        <h1>Alat Pelaporan yang mengelola efektivitas biaya jam kerja dan mengevaluasi karyawan melalui laporan harian.</h1>
                     </div>
                     <div class="text-center">
                         <a href="#" class="btn btn--green btn--round btn--main">Request Demo &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
@@ -68,9 +67,9 @@
     <section class="mb-5 carousel">
         <div class="container">
             <div class="carousel__slide">
-                <div class="slide__item" data-label="Daily Reporting of all employees"><img class="w-100" src="/assets/img/carousel-1.png" alt=""></div>
-                <div class="slide__item" data-label="Statistic for each projects"><img class="w-100" src="/assets/img/carousel-2.png" alt=""></div>
-                <div class="slide__item" data-label="Statistic for each projects"><img class="w-100" src="/assets/img/carousel-1.png" alt=""></div>
+                <div class="slide__item" data-label="Laporan Harian Semua Karyawan"><img class="w-100" src="/assets/img/carousel-1.png" alt=""></div>
+                <div class="slide__item" data-label="Statistik untuk tiap proyek"><img class="w-100" src="/assets/img/carousel-2.png" alt=""></div>
+                <div class="slide__item" data-label="Laporan Harian Semua Karyawan"><img class="w-100" src="/assets/img/carousel-1.png" alt=""></div>
             </div>
         </div>
     </section>
@@ -79,8 +78,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1">
-                    <p class="fw--500">Nippo is a web-based application that assists managers in monitoring the overall productivity of their workers. This application is the perfect solution for conducting detailed staff-oriented managerial work.</p>
-                    <p>Nippo manages, monitors and evaluates each employee’s productivity through the use of daily reports. Through Nippo, the company can increase its knowledge of each employee’s daily work routines in a comprehensive manner, so that managers will then be able to use these reports in evaluating staff performance.</p>
+                    <p class="fw--500">Nippo adalah aplikasi berbasis web yang dapat membantu para manajer dalam memantau produktivitas dan manajemen kerja stafnya. Aplikasi ini merupakan solusi tepat bagi perusahaan untuk mengetahui manajemen kerja karyawan secara detail.</p>
+                    <p>Dengan Nippo, perusahaan dapat mengetahui laporan harian kerja karyawan secara komprehensif sehingga manajer dapat menggunakannya sebagai bahan pertimbangan untuk melakukan evaluasi kinerja para karyawan.</p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
                     <img src="/assets/img/nippo_1.png" alt="" class="img-fluid mb-3 mb-lg-0">
@@ -97,53 +96,53 @@
                     <div class="text-center">
                         <img src="/assets/icon/accessible.svg" alt="">
                     </div>
-                    <p>Accessible and User Friendly with both Desktop and Mobile Platforms</p>
+                    <p>Dapat diakses melalui desktop maupun mobile secara responsif.</p>
                 </div>
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="text-center">
                         <img src="/assets/icon/summary.svg" alt="">
                     </div>
-                    <p>Man-Hour cost management can be summarized for each project conducted by every employee.</p>
+                    <p>Membantu manajer dalam menentukan performa/kinerja para staf berdasarkan jam kerja.</p>
                 </div>
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="text-center">
                         <img src="/assets/icon/evaluation.svg" alt="">
                     </div>
-                    <p>Evaluation and Self-Assessment can be conducted on a daily basis.</p>
+                    <p>Mengetahui pengeluaran serta mengalkulasikan total jam kerja pengerjaan suatu projek.</p>
                 </div>
             </div>
             <div class="green-circle">
-                <a href="#" class="mx-auto green-circle__link"><img class="arrow-right" src="/assets/icon/arrow-right.svg" alt="" width="15"> Wonder how you can utilize this tool?</a>
+                <a href="#" class="mx-auto green-circle__link"><img class="arrow-right" src="/assets/icon/arrow-right.svg" alt="" width="15"> Ingin tahu cara memakai alat ini?</a>
             </div>
         </div>
     </section>
 
     <section class="mb-5 problems">
         <div class="container">
-            <h4 class="section-title section-title--left-line">Problems That Companies Often Face</h4>
+            <h4 class="section-title section-title--left-line">Masalah yang Sering Dialami Perusahaan</h4>
             <div class="row group-item-border">
                 <div class="col-md-6">
                     <div class="group-item-border__item">
                         <div class="item__img"><img src="/assets/icon/inefficient.svg" alt=""></div>
-                        <p class="item__text">Tasks are done in an inefficient manner. Managers are unable to figure out who is spending time on them, and for how long.</p>
+                        <p class="item__text">Sulit untuk mengkalkulasikan total jam pengerjaan suatu projek, dan karyawan-karyawan yang terlibat di dalamnya.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="group-item-border__item">
                         <div class="item__img"><img src="/assets/icon/calendar.svg" alt=""></div>
-                        <p class="item__text">Managers are unable to constantly regulate the activities of those in their employ. Therefore, the quantity and quality of some employees may remain surreptitiously inefficient for long periods of time.</p>
+                        <p class="item__text">Dengan kurangnya komunikasi internal, Nippo dapat digunakan sebagai sarana untuk mengevaluasi satu sama lain sehingga HRD dan Manajer dapat menilai produktivitas mereka.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="group-item-border__item">
                         <div class="item__img"><img src="/assets/icon/evaluate.svg" alt=""></div>
-                        <p class="item__text">Where internal communication is lacking, employees themselves must find ways to evaluate each other so that HRD and Managers can evaluate their productivity.</p>
+                        <p class="item__text">Sulit untuk memantau produktivitas kerja karyawan dalam perkembangan suatu proyek. Kinerja karyawan bisa saja kurang efektif, dan tidak disadari oleh atasan.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="group-item-border__item">
                         <div class="item__img"><img src="/assets/icon/assessment.svg" alt=""></div>
-                        <p class="item__text">A lack of objective and fair employee evaluation. To solve this, numerical based assessments are needed.</p>
+                        <p class="item__text">Laporan pekerjaan harian yang dibuat karyawan tidak spesifik dan kurang jelas. Untuk itu, diperlukan variabel penilaian yang lebih objektif.</p>
                     </div>
                 </div>
             </div>
@@ -152,18 +151,18 @@
 
     <section class="mb-5 benefit">
         <div class="container">
-            <h4 class="section-title section-title--left-line">Benefits of using Nippo</h4>
+            <h4 class="section-title section-title--left-line">Keuntungan Menggunakan Nippo</h4>
             <div class="row">
                 <div class="col-md-6">
                     <img src="/assets/img/benefit.png" alt="" class="img-fluid mb-3 mb-md-0">
                 </div>
                 <div class="col-md-6">
                     <ol class="benefit__list">
-                        <li>Managers can easily keep tabs on and track the work content done by each employee.</li>
-                        <li>Through Nippo, assessment is done in a fair and practical manner, and can be conducted in this way on a daily basis by mangers.</li>
-                        <li>Since both self assessment and supervisor evaluations are managed through the interface, HRD is able to bring up any problems in a clear way to staff.</li>
-                        <li>Internal communication is revitalized through a more interactive interface scheme. The ability to leave likes and comments will create a sense of comradery and recognition between team members.</li>
-                        <li>Remote workers get a chance to assess their skills based on the same criteria as regular workers.</li>
+                        <li>Mempermudah manajer dan direksi untuk memantau perkembangan suatu projek.</li>
+                        <li>Nippo mempermudah manajer dalam melakukan evaluasi kinerja para staf</li>
+                        <li>Manajemen kinerja seluruh karyawan dapat diketahui oleh para manajer secara transparan & fleksibel</li>
+                        <li>Mempererat komunikasi internal. Meninggalkan like dan comment pada suatu laporan kerja dapat menumbuhkan rasa penghargaan dan apresiasi pada diri karyawan atas pekerjaannya.</li>
+                        <li>Walaupun perusahaan memiliki pekerja remote, Anda dapat tetap memantau kinerja dan membangun komunikasi yang baik dengan mereka.</li>
                     </ol>
                 </div>
             </div>

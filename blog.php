@@ -43,6 +43,9 @@
 	</script> -->
 
   </head>
+  
+  <?php $page = 'blog.php'; ?>
+
   <body>
     
     <?php include './layout/header.php' ?>
