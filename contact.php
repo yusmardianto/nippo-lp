@@ -61,7 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
-                    <form action="">
+                    <form action="https://formspree.io/xeqrrryp" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="contact_name">Name <span class="text-danger">*</span></label>
