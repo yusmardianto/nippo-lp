@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
-                    <form action="https://formspree.io/gontang1500018280@webmail.uad.ac.id" method="POST" id="registration">
+                    <form action="https://formspree.io/sales@dokodemo-kerja.com" method="POST" id="registration">
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="contact_name">Name <span class="text-danger">*</span></label>
@@ -156,8 +156,8 @@
                     email: "Please enter a valid email address"
                 },
                 contact_phone: {
-                    required: "Please enter your contact_name",
-                    number: "Please enter your weight as a numerical value"
+                    required: "Please enter your contact phone",
+                    number: "Please enter your contact phone as a numerical value"
                 },
                 contact_message: "Please enter your contact message",
             },

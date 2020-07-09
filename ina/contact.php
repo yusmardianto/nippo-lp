@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
-                    <form action="https://formspree.io/gontang1500018280@webmail.uad.ac.id" method="POST" id="registration">
+                    <form action="https://formspree.io/sales@dokodemo-kerja.com" method="POST" id="registration">
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="contact_name">Nama <span class="text-danger">*</span></label>
@@ -149,17 +149,17 @@
             },
             // Specify validation error messages
             messages: {
-                contact_name: "Please enter your contact name",
-                contact_company: "Please enter your contact company",
+                contact_name: "Silahkan masukkan nama kontak anda",
+                contact_company: "Silahkan masukkan nama perusahaan anda",
                 contact_email: {
-                    required : "Please enter your email address",
-                    email: "Please enter a valid email address"
+                    required : "Silahkan masukkan alamat email anda",
+                    email: "Silahkan masukkan alamat email anda dengan benar"
                 },
                 contact_phone: {
-                    required: "Please enter your contact_name",
-                    number: "Please enter your weight as a numerical value"
+                    required: "Silahkan masukkan kontak telepon anda",
+                    number: "Silahkan masukkan kontak telepon anda berupa angka"
                 },
-                contact_message: "Please enter your contact message",
+                contact_message: "Silahkan masukkan kontak pesan anda",
             },
             submitHandler: function(form) {
             form.submit();
