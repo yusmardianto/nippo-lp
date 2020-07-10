@@ -118,6 +118,7 @@
 
 .footer ul.footer__contact a {
     display: flex;
+    word-break: break-word;
 }
 
 .footer ul.footer__contact i {
@@ -148,6 +149,13 @@
 .footer ul.footer__social > a > li > i {
     font-size: 20px;
 }
+
+@media (max-width: 767.98px) {
+    .footer ul.footer__contact a {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+} 
 /* end footer */
 
 /* copyright */

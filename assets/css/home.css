@@ -151,6 +151,16 @@
     }
 }
 
+@media (orientation: landscape) and (max-width: 1199.98px) {
+    .carousel .slick-next {
+        right: -30px;
+    }
+
+    .carousel .slick-prev {
+        left: -30px;
+    }
+}
+
 /* end override slick */
 
 /* description */

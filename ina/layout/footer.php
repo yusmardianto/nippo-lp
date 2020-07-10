@@ -1,7 +1,7 @@
 <section class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3 mb-md-0">
                 <a class="d-block mb-3" href="/"><img src="/assets/img/nippo-white.png" alt="Nippo" width="200"></a>
                 <div class="mb-2">
                     <span class="mr-2">by:</span>
@@ -20,7 +20,7 @@
             <div class="col-md-8">
                 <div class="row">
                     <div class="col-md-4">
-                        <ul>
+                        <ul class="text-center text-sm-left">
                             <li><a href="/ina/">Home</a></li>
                             <li><a href="/ina/about.php">Tentang Kami</a></li>
                             <li><a href="/ina/features.php">Fitur</a></li>
@@ -30,7 +30,7 @@
                     </div>
                     
                     <div class="col-md-4">
-                        <ul>
+                        <ul class="text-center text-sm-left">
                             <li><a href="/ina/contact.php">Hubungi Kami</a></li>
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Privacy Policy</a></li>
