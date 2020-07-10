@@ -91,13 +91,14 @@
                 </div>
 
                 <div class="green-circle">
-                    <a href="#" class="mx-auto green-circle__link"><img class="arrow-right" src="/assets/icon/arrow-right.svg" alt="" width="15"> Check out our other HR tool: <span class="font-weight-bold">Dokodemo-Kerja</span></a>
+                    <a href="https://dokodemo-kerja.com" ttarget="_blank" class="mx-auto green-circle__link"><img class="arrow-right" src="/assets/icon/arrow-right.svg" alt="" width="15"> Check out our other HR tool: <span class="font-weight-bold">Dokodemo-Kerja</span></a>
                 </div>
             </div>
         </div>
     </section>
 
     <?php include './layout/interest.php' ?>
+    <?php include './layout/online-meeting.php' ?>
     <?php include './layout/footer.php' ?>
 
 	

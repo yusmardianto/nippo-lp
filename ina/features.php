@@ -56,7 +56,7 @@
                 <div class="offset-md-2 col-md-8">
                     <h1 class="text-center">Nippo menyediakan sistem pelaporan harian sistematis yang dapat disesuaikan agar sesuai dengan tugas dan penilaian kerja masing-masing karyawan.</h1>
                     <div class="text-center">
-                        <a href="#" class="btn btn--green btn--round btn--main">Request Demo &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
+                        <a href="/ina/contact.php" class="btn btn--green btn--round btn--main">Request Demo &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@
                                 </div>
                             </div>
                             <div class="features-point__img">
-                                <img class="img-fluid w-100" src="/assets/img/features/feature-2.png" alt="">
+                                <img class="img-fluid w-100" src="/assets/img/features/feature-5.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                             <div class="features-point__img">
-                                <img class="img-fluid w-100" src="/assets/img/features/feature-2.png" alt="">
+                                <img class="img-fluid w-100" src="/assets/img/features/feature-6.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-12">
@@ -178,7 +178,7 @@
         </div>
     </section>
 
-    <section class="features-faq">
+    <section class="features-faq" id="faq">
         <div class="container">
             <h4 class="section-title text-center">FAQ</h4>
             <div class="row">
@@ -270,6 +270,7 @@
         </div>
     </section>
     
+    <?php include '../layout/online-meeting.php' ?>
     <?php include './layout/footer.php' ?>
 
 	

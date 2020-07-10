@@ -268,6 +268,7 @@
         </div>
     </section>
     
+    <?php include './layout/online-meeting.php' ?>
     <?php include './layout/footer.php' ?>
 
 	

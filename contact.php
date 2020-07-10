@@ -99,13 +99,14 @@
             <p>If you want an immediate response, get in touch with us during office hours: <br>
             <b>09.00 - 17.00 (Mon-Fri)</b></p>            
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#"><img src="/assets/icon/mail.svg" alt=""></a></li>
-                <li class="list-inline-item"><a href="#"><img src="/assets/icon/phone.svg" alt=""></a></li>
-                <li class="list-inline-item"><a href="#"><img src="/assets/icon/whatsapp.svg" alt=""></a></li>
+                <li class="list-inline-item"><a href="mailto:info@logique.co.id"><img src="/assets/icon/mail.svg" alt=""></a></li>
+                <li class="list-inline-item"><a href="tel:622122708935"><img src="/assets/icon/phone.svg" alt=""></a></li>
+                <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=62811870321"><img src="/assets/icon/whatsapp.svg" alt=""></a></li>
             </ul>
         </div>
     </section>
     
+    <?php include './layout/online-meeting.php' ?>
     <?php include './layout/footer.php' ?>
 
 	

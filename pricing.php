@@ -69,23 +69,20 @@
                             50,000
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a href="#" class="btn btn--green btn--round btn--main">Subscribe &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
                     <div class="pricing-amount__contact">
-                        <h5>Or you can contact us for <br>custumised any feature.</h5>
+                        <h5>Or you can contact us to <br>customize any feature.</h5>
                         <ul class="list-inline">
-                            <li class="list-inline-item"><a href="#"><img src="/assets/icon/mail.svg" alt=""></a></li>
-                            <li class="list-inline-item"><a href="#"><img src="/assets/icon/phone.svg" alt=""></a></li>
-                            <li class="list-inline-item"><a href="#"><img src="/assets/icon/whatsapp.svg" alt=""></a></li>
+                            <li class="list-inline-item"><a href="mailto:info@logique.co.id"><img src="/assets/icon/mail.svg" alt=""></a></li>
+                            <li class="list-inline-item"><a href="tel:622122708935"><img src="/assets/icon/phone.svg" alt=""></a></li>
+                            <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=62811870321"><img src="/assets/icon/whatsapp.svg" alt=""></a></li>
                         </ul>
                         <div class="text-center">
-                            <a href="#" class="btn btn--green btn--round btn--main">Contact Us &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
+                            <a href="/contact.php" class="btn btn--green btn--round btn--main">Contact Us &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
                         </div>
-                        <a href="#">Or request an online meeting</a>
+                        <a href="/contact.php">Or request an online meeting</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +91,7 @@
 
     <section class="pricing-subscribe mb-5">
         <div class="container">
-            <h4 class="section-title section-title--left-line">Why Nippo</h4>
+            <h4 class="section-title section-title--left-line">How to Subscribe?</h4>
             <div class="row">
                 <div class="col-md-6">
                     <p>Before subscribing to Nippo, there are some things that you should know about our procedure.</p>
@@ -148,6 +145,7 @@
         </div>
     </section>
     
+    <?php include './layout/online-meeting.php' ?>
     <?php include './layout/footer.php' ?>
 
 	

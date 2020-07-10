@@ -58,7 +58,7 @@
                         <h1>A Daily Reporting Tool that manages man-hour cost effectiveness and conducts employee evaluations through daily reports.</h1>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn btn--green btn--round btn--main">Request Demo &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
+                        <a href="/contact.php" class="btn btn--green btn--round btn--main">Request Demo &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,8 @@
             <div class="carousel__slide">
                 <div class="slide__item" data-label="Daily Reporting of all employees"><img class="w-100" src="/assets/img/carousel-1.png" alt=""></div>
                 <div class="slide__item" data-label="Statistic for each projects"><img class="w-100" src="/assets/img/carousel-2.png" alt=""></div>
-                <div class="slide__item" data-label="Statistic for each projects"><img class="w-100" src="/assets/img/carousel-1.png" alt=""></div>
+                <div class="slide__item" data-label="Task Overview"><img class="w-100" src="/assets/img/carousel-3.png" alt=""></div>
+                <div class="slide__item" data-label="Individual Report"><img class="w-100" src="/assets/img/carousel-4.png" alt=""></div>
             </div>
         </div>
     </section>
@@ -113,7 +114,7 @@
                 </div>
             </div>
             <div class="green-circle">
-                <a href="#" class="mx-auto green-circle__link"><img class="arrow-right" src="/assets/icon/arrow-right.svg" alt="" width="15"> Wonder how you can utilize this tool?</a>
+                <a href="/contact.php" class="mx-auto green-circle__link"><img class="arrow-right" src="/assets/icon/arrow-right.svg" alt="" width="15"> Wonder how you can utilize this tool?</a>
             </div>
         </div>
     </section>
@@ -171,6 +172,7 @@
     </section>
     
     <?php include './layout/interest.php' ?>
+    <?php include './layout/online-meeting.php' ?>
     <?php include './layout/footer.php' ?>
 
 	
