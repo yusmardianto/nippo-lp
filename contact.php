@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="description" itemprop="description" content="The Contact Us page displays Logique contact information, and allows the users to fill in their name, company, phone number, email and a summary message. ">
+	<meta name="keywords" content="Contact Us, Nippo, Contact Logique, fill out form">
+	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Nippo | Logique Digital Indonesia | Contact Us">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Nippo">
+    <meta property="og:url" content="https://nippo.id">
+    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-contact.jpg">
+    <meta property="og:description" content="Contact Logique for information about the Employee Reporting Tool, Nippo; submit your name, phone number, email and a summary message. We will be more than happy to respond to any questions you might have.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>Contact</title>
+    <title>Nippo | Contact Us</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

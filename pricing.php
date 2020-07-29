@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="description" itemprop="description" content="The Nippo Pricing page details its total cost & fees, subscribing procedure, ageement & consultation process, invoice and purchase order.">
+	<meta name="keywords" content="Nippo, nippo fees, nippo, cost, subscribing procedure, agreement & consultation, Nippo sales, nippo online form, nippo whatsapp, nippo call, installation process, nippo invoice, purchase order, terms and agreement, payment terms, nippo number of users, nippo total cost">
+	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Nippo | Pricing">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Nippo">
+    <meta property="og:url" content="https://nippo.id">
+    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-pricing.jpg">
+    <meta property="og:description" content="The Nippo Pricing page details the total cost, subscribing procedure, ageement & consultation process, invoice and purchase order involved in using the Cloud Based Employee Management system.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>Pricing</title>
+    <title>Nippo | Pricing & Fees</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

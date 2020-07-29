@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="description" itemprop="description" content="Nippo adalah aplikasi berbasis web untuk membantu para manajer memantau produktivitas & manajemen kerja stafnya. Solusi tepat untuk budaya kerja yang sehat & produktif.">
+	<meta name="keywords" content="Aplikasi untuk memantau produktivitas, budaya kerja, kerja produktif, produksivitas kerja">
+	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Nippo | Aplikasi Pelaporan Untuk Meningkatkan Produktivitas Kerja">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Nippo">
+    <meta property="og:url" content="https://nippo.id">
+    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-about.jpg">
+    <meta property="og:description" content="Nippo adalah aplikasi berbasis web untuk membantu para manajer memantau produktivitas & manajemen kerja stafnya. Solusi tepat untuk menciptakan budaya kerja yang produktif.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>About</title>
+    <title>Nippo | Aplikasi Untuk Memantau Produktivitas Kerja</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

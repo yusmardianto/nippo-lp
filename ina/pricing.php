@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="description" itemprop="description" content="Daftar harga dan detail cara berlangganan aplikasi Nippo. Diskusikan dan tinjau kebutuhan Anda serta dapatkan penawaran harga terbaik dari kami.">
+	<meta name="keywords" content="aplikasi nippo, harga aplikasi nippo, cara berlangganan nippo">
+	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Nippo | Harga & Cara Berlangganan">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Nippo">
+    <meta property="og:url" content="https://nippo.id">
+    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-pricing.jpg">
+    <meta property="og:description" content="Daftar harga dan detail cara berlangganan aplikasi Nippo. Diskusikan dan tinjau kebutuhan Anda dan dapatkan penawaran harga terbaik kami.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>Pricing</title>
+    <title>Nippo | Harga & Cara Berlangganan</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

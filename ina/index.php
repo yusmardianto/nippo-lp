@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="description" itemprop="description" content="Aplikasi pembuat laporan kerja harian terbaik. Lakukan penilaian & evaluasi karyawan secara sistematis serta dapatkan biaya kerja setiap tugas dengan detail.">
+	<meta name="keywords" content="Nippo, alat pembuat laporan, aplikasi laporan harian, aplikasi laporan karyawan, laporan harian karyawan">
+	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Nippo | Laporan & Evaluasi Kerja Harian Jadi Mudah">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Nippo">
+    <meta property="og:url" content="https://nippo.id">
+    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-index.jpg">
+    <meta property="og:description" content="Nippo merupakan aplikasi pembuat laporan kerja harian terbaik. Lakukan penilaian & evaluasi karyawan melalui sajian data yang sistematis; Solusi optimalisasi biaya manajemen untuk kerja remote.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>Nippo LP</title>
+    <title>Nippo | Aplikasi Pembuat Laporan & Evaluasi Kerja Harian Karyawan</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

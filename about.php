@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="description" itemprop="description" content="Through Nippo, HR managers can view the daily reports of employees, & serve as an Cloud Management & HR tool for employee evaluation.">
+	<meta name="keywords" content="Nippo, daily report, tool for HR, HR tool, HR Managers, Tool for supervisors, Human Resources website, employee evaluation tool, internal communication, daily report, cloud management, LOGIQUE">
+	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Nippo | A Cloud Based HR System for Better Employee Management and Cost Assessment">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Nippo">
+    <meta property="og:url" content="https://nippo.id">
+    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-about.jpg">
+    <meta property="og:description" content="Through Nippo, HR managers can view the daily reports of employees, serving as a Cloud Management & HR tool for employee and expenditure assessment.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>About</title>
+    <title>Nippo | About Us: A Cloud Based HR Tool for managers</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

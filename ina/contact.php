@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="description" itemprop="description" content="Hubungi kami untuk informasi & ketentuan-ketentuan yang berlaku. Jangkau kami melalui Whatsapp, Formulir Online, Telepon atau Email mulai pukul 09:00 - 17.00 WIB.">
+	<meta name="keywords" content="hubungi nippo, nomor telepon nippo, informasi tentang nippo, contact center nippo">
+	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Nippo | Logique Digital Indonesia | Hubungi Kami">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Nippo">
+    <meta property="og:url" content="https://nippo.id">
+    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-contact.jpg">
+    <meta property="og:description" content="Hubungi kami untuk informasi & ketentuan-ketentuan yang berlaku. Jangkau kami melalui Whatsapp, Formulir Online, Telepon atau Email mulai pukul 09:00 - 17.00 WIB.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>Contact</title>
+    <title>Nippo | Hubungi Kami</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

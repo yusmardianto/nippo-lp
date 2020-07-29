@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="description" itemprop="description" content="Nippo is a Daily Reporting Tool used for employee evaluation and man hour cost management, facilitating better productivity & remote work.">
+	<meta name="keywords" content="Nippo, daily reporting tool, web-based application, cost effectiveness, assists managers, tool for managers, productivity tool, employee productivity, daily work tool, staff evaluation, employee evaluation, Man-Hour cost management, staff cost management, Remote worker, remote work, Internal communication, human resources tool, management tool">
+	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Nippo | A Daily Reporting Tool for Enhanced Employee Evaluation & Cost Management">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Nippo">
+    <meta property="og:url" content="https://nippo.id">
+    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-index.jpg">
+    <meta property="og:description" content="Nippo is a Cloud Based Daily Reporting Tool: Evaluate Employee Performances Objectively through data based reports; determine better cost management solutions for enhanced remote work. ">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>Nippo LP</title>
+    <title>Nippo | A Daily Reporting Tool for Employee Evaluation</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
