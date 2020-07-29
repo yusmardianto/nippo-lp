@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="Nippo offers a cloud based employee reporting system, utilized for productivity management and employee evaluation. It also facilitates better ">
-	<meta name="keywords" content="Daily Reporting System, Employee Management, supervisor tool, daily reporting, employee assessment, employee evaluation, annual evaluation, project management, working hours, task summary, Nippo, productivity management, cost management, task management">
+    <meta name="description" itemprop="description" content="Nippo dilengkapi dengan fitur manajemen karyawan, statistik proyek, evaluasi karyawan, project management, pengeluaran projek berdasarkan jam kerja & kolom komentar.">
+	<meta name="keywords" content="Fitur nippo, fitur evaluasi karyawan, manajemen karyawan, manajemen proyek">
 	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="Nippo | A Daily Reporting & Employee Management Tool">
+    <meta property="og:title" content="Nippo | Fitur Lengkap Dan Detail">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Nippo">
     <meta property="og:url" content="https://nippo.id">
     <meta property="og:image" content="https://nippo.id/assets/img/ogp/ogp-features.jpg">
-    <meta property="og:description" content="Nippo is a cloud based employee reporting system, utilized for productivity management and employee evaluation, also facilitating better internal communication through a 'comments' feature.">
+    <meta property="og:description" content="Nippo dilengkapi dengan fitur lengkap dan detail untuk manajemen karyawan, statistik proyek, evaluasi karyawan, manajemen proyek, pengeluaran proyek berdasarkan jam kerja & kolom komentar.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>Nippo | Features: A Daily Reporting & Employee Management Tool</title>
+    <title>Nippo | Fitur Lengkap</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -68,9 +68,9 @@
         <div class="container">
             <div class="row">
                 <div class="offset-md-2 col-md-8">
-                    <h1 class="text-center">Nippo provides a systemized daily reporting system that can be customized to fit individual employee’s tasks and work assessment.</h1>
+                    <h1 class="text-center">Nippo menyediakan sistem pelaporan harian sistematis yang dapat disesuaikan agar sesuai dengan tugas dan penilaian kerja masing-masing karyawan.</h1>
                     <div class="text-center">
-                        <a href="/contact.php" class="btn btn--green btn--round btn--main">Request Demo &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
+                        <a href="/ina/contact.php" class="btn btn--green btn--round btn--main">Request Demo &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></a>
                     </div>
                 </div>
             </div>
@@ -88,8 +88,8 @@
                                     <h3>1.</h3>
                                 </div>
                                 <div class="item__content">
-                                    <h4>Employee Management</h4>
-                                    <p>Create and organize employee information and data, associations with supervisors and many more.</p>
+                                    <h4>Manajemen Karyawan</h4>
+                                    <p>Perusahaan dapat membuat serta menambahkan informasi secara lengkap mengenai organisasi atau perusahaan. Dengan menggunakan Nippo, Anda dapat membuat informasi mengenai karyawan, supervisor, administrator, dan lain lain.</p>
                                 </div>
                             </div>
                             <div class="features-point__img">
@@ -102,8 +102,8 @@
                                     <h3>2.</h3>
                                 </div>
                                 <div class="item__content">
-                                    <h4>Statistics for each Projects</h4>
-                                    <p>Analyze data based on various variables, such as project contribution, man-hour, staff involved, etc.</p>
+                                    <h4>Statistik untuk setiap Proyek</h4>
+                                    <p>Analisa data berdasarkan berbagai variabel, seperti kontribusi terhadap proyek, jam kerja, karyawan yang terlibat, dll.</p>
                                 </div>
                             </div>
                             <div class="features-point__img">
@@ -116,8 +116,8 @@
                                     <h3>3.</h3>
                                 </div>
                                 <div class="item__content">
-                                    <h4>Personnel Assessment</h4>
-                                    <p>Manage your employee’s self-assessment evaluation score. It is also possible to compile and analyze monthly and annual evaluations.</p>
+                                    <h4>Evaluasi Karyawan</h4>
+                                    <p>Dengan menggunakan Nippo, Anda dapat dengan mudah melakukan evaluasi kinerja para karyawan setiap hari, bulan, ataupun tahun.</p>
                                 </div>
                             </div>
                             <div class="features-point__img">
@@ -131,7 +131,7 @@
                                 </div>
                                 <div class="item__content">
                                     <h4>Project/Task Management</h4>
-                                    <p>Register and manage project information, task types and the specific details of each task.</p>
+                                    <p>Perusahaan dapat menambahkan batas waktu pekerjaan berdasarkan hari dan jumlah jam kerja melalui fitur Project Master. Selain itu, perusahaan dapat menambahkan informasi projek, serta tipe dan spefikasi pekerjaan melalui fitur ini.</p>
                                 </div>
                             </div>
                             <div class="features-point__img">
@@ -144,8 +144,8 @@
                                     <h3>5.</h3>
                                 </div>
                                 <div class="item__content">
-                                    <h4>Man-hour Cost Management</h4>
-                                    <p>The total number of working hours can be summarized for each task, and is supported with a calculation of the number of hours spent on each task.</p>
+                                    <h4>Pengeluaran Projek Berdasarkan Jam Kerja</h4>
+                                    <p>Perusahaan dapat mengalkulasikan total jam kerja dari pengerjaan suatu projek. Dengan begitu, perusahaan dapat menganalisis suatu projek yang terlalu banyak memakan waktu. Hasil analisis dapat digunakan sebagai dasar pengambilan keputusan untuk kemajuan dan perkembangan suatu projek.</p>
                                 </div>
                             </div>
                             <div class="features-point__img">
@@ -158,8 +158,8 @@
                                     <h3>6.</h3>
                                 </div>
                                 <div class="item__content">
-                                    <h4>Engage Each Other</h4>
-                                    <p>Leave a like and comment on people’s work. You can also give a thumbs-up in regards to each task/project performance, so as to motivate one another.</p>
+                                    <h4>Comment Management</h4>
+                                    <p>Dengan menggunakan Nippo, Anda dapat melihat komentar karyawan lain dan meninggalkan likes ataupun comments pada suatu laporan kerja.</p>
                                 </div>
                             </div>
                             <div class="features-point__img">
@@ -175,7 +175,7 @@
                                         </div>
                                         <div class="item__content">
                                             <h4>Tag People</h4>
-                                            <p>Through tagging the colleagues each employee has collaborated with on every individual task, managers are able to check if there is a mismatch, and take the appropriate steps to confirm the duties of the individual in question.</p>
+                                            <p>Karyawan dapat menambahkan karyawan lain dalam laporan harian kerjanya jika mereka bekerja bersama melalui fitur Tag Person. Dengan begitu, perusahaan dapat mengetahui apabila terdapat pengisian laporan kerja yang cukup berbeda oleh kedua karyawan tersebut dengan membandingkan kedua laporan kerja mereka.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -199,41 +199,41 @@
                 <div class="offset-md-1 col-md-5">
                     <div class="features-faq__item">
                         <button class="btn btn--green" type="button" data-toggle="collapse" data-target="#faq_1" aria-expanded="false" aria-controls="faq_1">
-                            How does NIPPO work?
+                            Bagaimana cara kerja Nippo?
                         </button>
                         <div class="collapse" id="faq_1">
                             <div class="card card-body">
-                                Nippo provides a daily reporting mechanism which calculates the man-hour cost of each employee so that managers and HRD can have a better grasp of the daily performances of each staff member.
+                                Nippo merupakan sistem yang dibuat untuk mempermudah karyawan dalam melakukan laporan manajemen kerja harian. Selain itu, sistem ini juga dibuat untuk membantu manajerial dalam memantau manajemen kinerja harian karyawan.
                             </div>
                         </div>
                     </div>
                     <div class="features-faq__item">
                         <button class="btn btn--green" type="button" data-toggle="collapse" data-target="#faq_2" aria-expanded="false" aria-controls="faq_2">
-                        I might require clearer guidelines in regards to the application. Will this be possible?
+                        Sepertinya saya akan membutuhkan panduan yang lebih jelas dalam menggunakan Nippo. Apa saya akan mendapatkannya?
                         </button>
                         <div class="collapse" id="faq_2">
                             <div class="card card-body">
-                                Don’t worry, we provide user guidelines along with the application. If you are still uncertain about some features, then you can contact us directly.
+                                Jangan khawatir. Kami menyediakan panduan penggunaannya untuk Anda. Jika Anda masih menemukan kesulitan, Anda bisa langsung menghubungi kami.
                             </div>
                         </div>
                     </div>
                     <div class="features-faq__item">
                         <button class="btn btn--green" type="button" data-toggle="collapse" data-target="#faq_3" aria-expanded="false" aria-controls="faq_3">
-                        Is Nippo compatible with any browser?
+                        Apakah Nippo bisa diakses oleh browser apa pun?
                         </button>
                         <div class="collapse" id="faq_3">
                             <div class="card card-body">
-                                Yes, Nippo can be accessed through any browser, including mobile device based browsers. If you have a problem and require assistance, please do not hesitate to contact us.
+                                Ya, Nippo dapat diakses menggunakan browser apapun, termasuk oleh browser di perangkat seluler. Jika Anda mengalami masalah dan membutuhkan bantuan, jangan ragu untuk menghubungi Kami.
                             </div>
                         </div>
                     </div>
                     <div class="features-faq__item">
                         <button class="btn btn--green" type="button" data-toggle="collapse" data-target="#faq_4" aria-expanded="false" aria-controls="faq_4">
-                        Is Nippo accessible on mobile phones?
+                        Apakah Nippo dapat diakses dari telepon seluler?
                         </button>
                         <div class="collapse" id="faq_4">
                             <div class="card card-body">
-                                Yes, Nippo can function on mobile platforms.
+                                Ya, Nippo dapat berfungsi dengan baik pada platform mobile.
                             </div>
                         </div>
                     </div>
@@ -241,41 +241,41 @@
                 <div class="col-md-5">
                     <div class="features-faq__item">
                         <button class="btn btn--green" type="button" data-toggle="collapse" data-target="#faq_5" aria-expanded="false" aria-controls="faq_5">
-                        How can Nippo help managers and HRD
+                        Bagaimana Nippo dapat membantu manager dan staf HR?
                         </button>
                         <div class="collapse" id="faq_5">
                             <div class="card card-body">
-                                With Nippo’s features, managers and HRD can accurately monitor the productivity of each employee on a day-by-day basis, therefore allowing them to immediately evaluate their work and bring to light any wasteful or unnecessary tasks within each of their routines.
+                                Dengan fitur-fitur yang ada pada Nippo, manajer atau supervisor dapat memantau manajemen kinerja dan produktivitas harian karyawan
                             </div>
                         </div>
                     </div>
                     <div class="features-faq__item">
                         <button class="btn btn--green" type="button" data-toggle="collapse" data-target="#faq_6" aria-expanded="false" aria-controls="faq_6">
-                        Our company is interested in using the Nippo System. How do we proceed?
+                        Kami tertarik menggunakan Nippo untuk perusahaan kami. Bagaimana kami bisa mendapatkannya?
                         </button>
                         <div class="collapse" id="faq_6">
                             <div class="card card-body">
-                                Thank you for using our services. You can inform us directly through one of the contacts we have provided.
+                                Anda bisa langsung menghubungi kami melalui salah satu kontak yang kami sediakan. Kami siap melayani Anda dengan senang hati.
                             </div>
                         </div>
                     </div>
                     <div class="features-faq__item">
                         <button class="btn btn--green" type="button" data-toggle="collapse" data-target="#faq_7" aria-expanded="false" aria-controls="faq_7">
-                        What’s the difference in interface options available to staff and managers?
+                        Apa perbedaan laman kelola untuk staf dengan manajerial?
                         </button>
                         <div class="collapse" id="faq_7">
                             <div class="card card-body">
-                                Managers are able to evaluate each employee based on their overall working performance in the form of a score. Staff, on the other hand, can only input their daily report.
+                                Pada halaman manajerial terdapat fungsi evaluasi sehingga manajer dapat memberikan skor evaluasi kepada stafnya. Sedangkan untuk halaman staf hanya terdapat fungsi laporan harian saja.
                             </div>
                         </div>
                     </div>
                     <div class="features-faq__item">
                         <button class="btn btn--green" type="button" data-toggle="collapse" data-target="#faq_8" aria-expanded="false" aria-controls="faq_8">
-                        Is Nippo only compatible with certain types of companies?
+                        Apakah Nippo hanya diperuntukkan bagi perusahaan jenis tertentu?
                         </button>
                         <div class="collapse" id="faq_8">
                             <div class="card card-body">
-                                No. Nippo is designed to meet the needs of any type of company.
+                                Tidak. Nippo dirancang untuk memenuhi kebutuhan dari jenis perusahaan apa pun.
                             </div>
                         </div>
                     </div>
@@ -284,7 +284,7 @@
         </div>
     </section>
     
-    <?php include './layout/online-meeting.php' ?>
+    <?php include '../layout/online-meeting.php' ?>
     <?php include './layout/footer.php' ?>
 
 	

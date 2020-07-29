@@ -1,6 +1,7 @@
 /* hero */
 .hero {
     background: url("/assets/img/bg-home.png") center/cover no-repeat;
+    background-color: #267E74;
     min-height: 675px;
     display: flex;
     align-items: flex-end;
@@ -79,6 +80,16 @@
     left: 0;
 }
 
+@media (max-width: 991.98px) {
+    .carousel .carousel__slide .slide__item {
+        height: 180px;
+    }
+    .carousel .carousel__slide .slide__item img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 /* end carousel */
 
 /* override slick */
@@ -137,6 +148,16 @@
 @media (max-width: 320px) {
     .carousel .carousel__slide .slide__item:after {
         font-size: 12px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1199.98px) {
+    .carousel .slick-next {
+        right: -30px;
+    }
+
+    .carousel .slick-prev {
+        left: -30px;
     }
 }
 

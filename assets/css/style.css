@@ -39,6 +39,10 @@ strong{
     font-weight: 700!important;
 }
 
+body,html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -211,6 +215,74 @@ body {
 .arrow-right.arrow-right--white {
     filter: invert(1);
 }
+
+/* not found */
+.not-found h1 {
+    font-size: 100px;
+    color: var(--primary);
+}
+
+.not-found p {
+    font-size: 40px;
+}
+
+@media (max-width: 767.98px) {
+    .not-found p {
+        font-size: 28px;
+    }
+}
+/* end not found */
+
+/* online-meeting */
+.online-meeting > button {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    transform: translateY(200%);
+    background-color: var(--primary);
+    animation: 2s ease-in-out .25s 1 fade-up;
+    -webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
+    -moz-animation-fill-mode: forwards;    /* FF 5+ */
+    -o-animation-fill-mode: forwards;      /* Not implemented yet */
+    -ms-animation-fill-mode: forwards;     /* IE 10+ */
+    animation-fill-mode: forwards;         /* When the spec is finished */
+}
+
+.online-meeting > button > i {
+    color: #fff;
+    font-size: medium;
+}
+
+.online-meeting > .popUpBottom{
+    position: fixed; 
+    bottom: 10px; 
+    left: 8px; 
+    z-index: 20; 
+    width: 300px;
+  }
+
+.online-meeting > div > .card {
+    border: 3px solid var(--l-gray);
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+.online-meeting > div > .card > button[data-toggle="collapse"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 12px;
+}
+
+.online-meeting > div > .card  > button[data-toggle="collapse"] > span {
+    font-size: medium;
+}
+
+@keyframes fade-up {
+    0% {transform: translateY(200%);}
+    100% {transform: translateY(0);}
+}
+/* end online-meeting */
 
 
 /* RESPONSIVE */

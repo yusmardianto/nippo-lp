@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" itemprop="description" content="Through Nippo, HR managers can view the daily reports of employees, & serve as an Cloud Management & HR tool for employee evaluation.">
-	<meta name="keywords" content="Nippo, daily report, tool for HR, HR tool, HR Managers, Tool for supervisors, Human Resources website, employee evaluation tool, internal communication, daily report, cloud management, LOGIQUE">
+    <meta name="description" itemprop="description" content="Nippo adalah aplikasi berbasis web untuk membantu para manajer memantau produktivitas & manajemen kerja stafnya. Solusi tepat untuk budaya kerja yang sehat & produktif.">
+	<meta name="keywords" content="Aplikasi untuk memantau produktivitas, budaya kerja, kerja produktif, produksivitas kerja">
 	<meta name="author" content="PT. LOGIQUE Digital Indonesia">
     <meta name="google-site-verification" content="vA3R6dl4jXfUVzsjkNcL_3BRHXnpoR1v6PZH_OMi4AY" />
 	<meta itemprop="name" content="">
-    <meta property="og:title" content="Nippo | A Cloud Based HR System for Better Employee Management and Cost Assessment">
+    <meta property="og:title" content="Nippo | Aplikasi Pelaporan Untuk Meningkatkan Produktivitas Kerja">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Nippo">
     <meta property="og:url" content="https://nippo.id">
     <meta property="og:image" content="https://nippo.id/assets/img/ogp/ogp-about.jpg">
-    <meta property="og:description" content="Through Nippo, HR managers can view the daily reports of employees, serving as a Cloud Management & HR tool for employee and expenditure assessment.">
+    <meta property="og:description" content="Nippo adalah aplikasi berbasis web untuk membantu para manajer memantau produktivitas & manajemen kerja stafnya. Solusi tepat untuk menciptakan budaya kerja yang produktif.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
-    <title>Nippo | About Us: A Cloud Based HR Tool for managers</title>
+    <title>Nippo | Aplikasi Untuk Memantau Produktivitas Kerja</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -68,15 +68,15 @@
         <div class="container">
             <div class="text-center">
                 <img src="/assets/icon/about.svg" width="75" alt="">
-                <h1 class="about__title">Nippo is a daily report cloud management tool.</h1>
+                <h1 class="about__title">Nippo adalah alat manajemen cloud laporan harian.</h1>
             </div>
 
             <div class="row about__text">
                 <div class="col-md-6">
-                    <p>Through Nippo, HR managers and supervisors within each department can examine how employees spend their working hours. Allowing for co-workers to tag and evaluate each other’s work makes internal communication more active.</p>
+                    <p>Melalui Nippo, manajer SDM dan supervisor di setiap departemen dapat memeriksa bagaimana karyawan menghabiskan jam kerjanya. Mengizinkan rekan kerja untuk saling menandai dan mengevaluasi pekerjaan satu sama lain, sehingga membuat komunikasi internal menjadi lebih aktif.</p>
                 </div>
                 <div class="col-md-6">
-                    <p>This is a useful tool for HR to calculate the man-hour cost of each tasks conducted by every employee. Through Nippo, evaluation and self-assessment can be done methodically every day.</p>
+                    <p>Alat ini berguna untuk SDM untuk menghitung biaya jam kerja dari setiap tugas yang dilakukan oleh setiap karyawan. Melalui Nippo, evaluasi dan penilaian mandiri dapat dilakukan secara metodis setiap hari.</p>
                 </div>
             </div>
 
@@ -100,19 +100,19 @@
             <div class="about__summary text-center">
                 <div class="row">
                     <div class="offset-md-1 col-md-10">
-                        <p>The word <span class="font-weight-bold">"Nippo" (日報)</span> literally means Daily Report in Japanese. Nippo is developed by PT. LOGIQUE Digital Indonesia, a company providing Digital Solutions, based in Jakarta, Indonesia. Nippo was designed to promote healthier and more productive work cultures in a way that benefits both the Company and Employees alike.</p>
+                        <p><span class="font-weight-bold">"Nippo" (日報)</span> artinya Laporan Harian dalam bahasa Jepang. Nippo dikembangkan oleh PT. LOGIQUE Digital Indonesia, perusahaan solusi digital yang berpusat di Jakarta, Indonesia. Nippo dibuat dengan harapan dapat membantu mempromosikan budaya kerja yang lebih sehat, produktif, dan juga fleksibel, yang menguntungkan pihak karyawan dan perusahaan.</p>
                     </div>
                 </div>
 
                 <div class="green-circle">
-                    <a href="https://dokodemo-kerja.com" ttarget="_blank" class="mx-auto green-circle__link"><img class="arrow-right" src="/assets/icon/arrow-right.svg" alt="" width="15"> Check out our other HR tool: <span class="font-weight-bold">Dokodemo-Kerja</span></a>
+                    <a href="https://dokodemo-kerja.com/ind" target="_blank" class="mx-auto green-circle__link"><img class="arrow-right" src="/assets/icon/arrow-right.svg" alt="" width="15"> Lihat alat pemantauan kinerja kami yang lain: <span class="font-weight-bold">Dokodemo-Kerja</span></a>
                 </div>
             </div>
         </div>
     </section>
 
     <?php include './layout/interest.php' ?>
-    <?php include './layout/online-meeting.php' ?>
+    <?php include '../layout/online-meeting.php' ?>
     <?php include './layout/footer.php' ?>
 
 	

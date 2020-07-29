@@ -12,4 +12,8 @@ $(function() {
             }
         ]
     })
+
+    $('.header__lang > li').click(function() {
+        window.location.href=$(this).find('a').attr('href');
+    })
 })
