@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Nippo">
     <meta property="og:url" content="https://nippo.id">
-    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-index.jpg">
+    <meta property="og:image" content="https://nippo.id/assets/img/ogp/ogp-index.jpg">
     <meta property="og:description" content="Nippo is a Cloud Based Daily Reporting Tool: Evaluate Employee Performances Objectively through data based reports; determine better cost management solutions for enhanced remote work. ">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	

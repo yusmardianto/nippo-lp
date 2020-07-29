@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Nippo">
     <meta property="og:url" content="https://nippo.id">
-    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-pricing.jpg">
+    <meta property="og:image" content="https://nippo.id/assets/img/ogp/ogp-pricing.jpg">
     <meta property="og:description" content="Daftar harga dan detail cara berlangganan aplikasi Nippo. Diskusikan dan tinjau kebutuhan Anda dan dapatkan penawaran harga terbaik kami.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	

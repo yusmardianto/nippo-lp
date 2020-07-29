@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Nippo">
     <meta property="og:url" content="https://nippo.id">
-    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-index.jpg">
+    <meta property="og:image" content="https://nippo.id/assets/img/ogp/ogp-index.jpg">
     <meta property="og:description" content="Nippo merupakan aplikasi pembuat laporan kerja harian terbaik. Lakukan penilaian & evaluasi karyawan melalui sajian data yang sistematis; Solusi optimalisasi biaya manajemen untuk kerja remote.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	

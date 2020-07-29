@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Nippo">
     <meta property="og:url" content="https://nippo.id">
-    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-about.jpg">
+    <meta property="og:image" content="https://nippo.id/assets/img/ogp/ogp-about.jpg">
     <meta property="og:description" content="Through Nippo, HR managers can view the daily reports of employees, serving as a Cloud Management & HR tool for employee and expenditure assessment.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	

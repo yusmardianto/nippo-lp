@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Nippo">
     <meta property="og:url" content="https://nippo.id">
-    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-pricing.jpg">
+    <meta property="og:image" content="https://nippo.id/assets/img/ogp/ogp-pricing.jpg">
     <meta property="og:description" content="The Nippo Pricing page details the total cost, subscribing procedure, ageement & consultation process, invoice and purchase order involved in using the Cloud Based Employee Management system.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	

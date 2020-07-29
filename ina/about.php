@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Nippo">
     <meta property="og:url" content="https://nippo.id">
-    <meta property="og:image" content="http://nippo-lp.test/assets/img/ogp/ogp-about.jpg">
+    <meta property="og:image" content="https://nippo.id/assets/img/ogp/ogp-about.jpg">
     <meta property="og:description" content="Nippo adalah aplikasi berbasis web untuk membantu para manajer memantau produktivitas & manajemen kerja stafnya. Solusi tepat untuk menciptakan budaya kerja yang produktif.">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
