@@ -180,7 +180,7 @@
                 <div class="col-md-6">
                     <ol class="benefit__list">
                         <li>Managers can easily keep tabs on and track the work content done by each employee.</li>
-                        <li>Through Nippo, assessment is done in a fair and practical manner, and can be conducted in this way on a daily basis by mangers.</li>
+                        <li>Through Nippo, assessment is done in a fair and practical manner, and can be conducted in this way on a daily basis by managers.</li>
                         <li>Since both self assessment and supervisor evaluations are managed through the interface, HRD is able to bring up any problems in a clear way to staff.</li>
                         <li>Internal communication is revitalized through a more interactive interface scheme. The ability to leave likes and comments will create a sense of comradery and recognition between team members.</li>
                         <li>Remote workers get a chance to assess their skills based on the same criteria as regular workers.</li>
