@@ -45,6 +45,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+body.jp-page {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
 /* color */
 :root {
     --primary: #47e4c2;

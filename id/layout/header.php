@@ -98,9 +98,9 @@
             
             <div class="navbar-expand-lg navbar-light">
                 <ul class="header__lang d-none d-lg-block">
-                    <li class="<?php lang_active('') ?>"><a href="/<?php echo $page;?>">ENG</a></li>
-                    <li class="<?php lang_active('id') ?>"><a href="/ina/<?php echo $page;?>">INA</a></li>
-                    <!-- <li class="<//?php lang_active('jpn') ?>"><a href="/jpn/<//?php echo $page;?>">JPN</a></li> -->
+                    <li class="<?php lang_active('id') ?>"><a href="/ina/<?php echo $page;?>">ID</a></li>
+                    <li class="<?php lang_active('') ?>"><a href="/<?php echo $page;?>">EN</a></li>
+                    <li class="<?php lang_active('jpn') ?>"><a href="/jp/<?php echo $page;?>">JP</a></li>
                 </ul>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -133,9 +133,9 @@
                 </ul>
 
                 <ul class="header__lang text-center mt-2 d-block d-lg-none">
-                    <li class="<?php lang_active('') ?>"><a href="/<?php echo $page;?>">ENG</a></li>
-                    <li class="<?php lang_active('ina') ?>"><a href="/ina/<?php echo $page;?>">INA</a></li>
-                    <!-- <li class="<//?php lang_active('jpn') ?>"><a href="/jpn/<//?php echo $page;?>">JPN</a></li> -->
+                    <li class="<?php lang_active('id') ?>"><a href="/ina/<?php echo $page;?>">ID</a></li>
+                    <li class="<?php lang_active('') ?>"><a href="/<?php echo $page;?>">EN</a></li>
+                    <li class="<?php lang_active('jp') ?>"><a href="/jp/<?php echo $page;?>">JP</a></li>
                 </ul>
             </div>
         </nav>
