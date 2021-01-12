@@ -86,15 +86,6 @@
             </div>
             <div class="col-md-6">
                 <div class="group-item-border__item">
-                    <div class="item__img"><img src="/assets/icon/invoice.svg" alt=""></div>
-                    <div class="item__text">
-                        <h5>Invoice</h5>
-                        <p>Faktur berulang akan dikirimkan kepada Anda pada awal bulan berikutnya. Anda dapat melihat faktur di dashboard admin Anda, atau dari email yang akan kami kirimkan setiap akhir bulan.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="group-item-border__item">
                     <div class="item__img"><img src="/assets/icon/purchase.svg" alt=""></div>
                     <div class="item__text">
                         <h5>Purchase Order</h5>
@@ -102,12 +93,23 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6">
+                <div class="group-item-border__item">
+                    <div class="item__img"><img src="/assets/icon/invoice.svg" alt=""></div>
+                    <div class="item__text">
+                        <h5>Invoice</h5>
+                        <p>Faktur berulang akan dikirimkan kepada Anda pada awal bulan berikutnya. Anda dapat melihat faktur di dashboard admin Anda, atau dari email yang akan kami kirimkan setiap akhir bulan.</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="pricing-subscribe__note">
             <h6>Perhatikan bahwa:</h6>
             <ol>
-                <li>Ketentuan Pembayaran: Biaya ditutup pada akhir bulan, dan harus dibayar pada akhir bulan berikutnya</li>
-                <li>Jika pengguna menggunakan Dokodemo-Kerja selama kurang dari 10 hari dalam jangka waktu satu bulan, maka ia tidak akan dikenakan biaya pengguna tambahan.</li>
+                <li>Jumlah biaya pemakaian akan ditutup pada akhir bulan dan harus dibayarkan sebelum akhir bulan berikutnya. Invoice juga sudah termasuk dengan Fatur Pajak.</li>
+                <li>Jumlah yang ditagihkan pada invoice sudah termasuk pemotongan Pph23 (2%)</li>
+                <li>Pengguna yang baru didaftarkan kurang dari 10 hari tidak dikenakan biaya.</li>
+                <li>Pengguna yang sudah tidak aktif disarankan untuk dihapus dari NIPPO .</li>
             </ol>
         </div>
     </div>

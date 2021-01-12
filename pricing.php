@@ -86,15 +86,6 @@
             </div>
             <div class="col-md-6">
                 <div class="group-item-border__item">
-                    <div class="item__img"><img src="/assets/icon/invoice.svg" alt=""></div>
-                    <div class="item__text">
-                        <h5>Invoice</h5>
-                        <p>A recurring invoice will be sent to you at the beginning of the following month. You can view the invoice on your admin dashboard, or from an email that we will send you at the end of every month.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="group-item-border__item">
                     <div class="item__img"><img src="/assets/icon/purchase.svg" alt=""></div>
                     <div class="item__text">
                         <h5>Purchase Order</h5>
@@ -102,12 +93,23 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6">
+                <div class="group-item-border__item">
+                    <div class="item__img"><img src="/assets/icon/invoice.svg" alt=""></div>
+                    <div class="item__text">
+                        <h5>Invoice</h5>
+                        <p>A recurring invoice will be sent to you at the beginning of the following month. You can view the invoice on your admin dashboard, or from an email that we will send you at the end of every month.</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="pricing-subscribe__note">
             <h6>Note that:</h6>
             <ol>
-                <li>Terms of Payment: The fee closes at the end of the month, and should be paid by the end of the following month.</li>
-                <li>If Nippo is used for less than 10 days within the span of a month, the user wont be charged.</li>
+                <li>The fee calculation will closes at the end of the month and should be paid by the end of the following month. We will provide the Tax invoice.</li>
+                <li>The invoice amount will include Pph23 (2%) deduction.</li>
+                <li>Users who have been registered less than 10 days will not be charged.</li>
+                <li>Inactive users should be removed from NIPPO.</li>
             </ol>
         </div>
     </div>

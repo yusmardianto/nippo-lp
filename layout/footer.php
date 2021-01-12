@@ -22,7 +22,7 @@
                     <div class="col-md-4 col-6">
                         <ul class="text-center text-sm-left">
                             <li><a href="/">Home</a></li>
-                            <li><a href="/about.php">About Us</a></li>
+                            <li><a href="/about.php">About Nippo</a></li>
                             <li><a href="/features.php">Features</a></li>
                             <li><a href="/pricing.php">Pricing</a></li>
                             <li><a href="/features.php#faq">FAQ</a></li>

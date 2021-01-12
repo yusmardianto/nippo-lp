@@ -116,7 +116,7 @@
                         <a class="nav-link" href="/ina/">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item <?php active('about.php') ?>">
-                        <a class="nav-link" href="/ina/about.php">TENTANG KAMI</a>
+                        <a class="nav-link" href="/ina/about.php">TENTANG NIPPO</a>
                     </li>
                     <li class="nav-item <?php active('features.php') ?>">
                         <a class="nav-link" href="/ina/features.php">FITUR</a>

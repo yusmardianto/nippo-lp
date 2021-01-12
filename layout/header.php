@@ -118,7 +118,7 @@
                         <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item <?php active('about.php') ?>">
-                        <a class="nav-link" href="/about.php">ABOUT US</a>
+                        <a class="nav-link" href="/about.php">ABOUT NIPPO</a>
                     </li>
                     <li class="nav-item <?php active('features.php') ?>">
                         <a class="nav-link" href="/features.php">FEATURES</a>
@@ -126,7 +126,7 @@
                     <li class="nav-item <?php active('pricing.php') ?>">
                         <a class="nav-link" href="/pricing.php">PRICING</a>
                     </li>
-                    <!-- <li class="nav-item <?php active('blog.php') ?>">
+                    <!-- <li class="nav-item <?//php active('blog.php') ?>">
                         <a class="nav-link" href="blog.php">BLOG</a>
                     </li> -->
                     <li class="nav-item <?php active('contact.php') ?>">
@@ -135,9 +135,9 @@
                 </ul>
 
                 <ul class="header__lang text-center mt-2 d-block d-lg-none">
-                    <li class="<?php lang_active('') ?>"><a href="/<?php echo $page ?>">ENG</a></li>
-                    <li class="<?php lang_active('ina') ?>"><a href="/ina/<?php echo $page ?>">INA</a></li>
-                    <!-- <li class="<//?php lang_active('jpn') ?>"><a href="/jpn/<//?php echo $page ?>">JPN</a></li> -->
+                    <li class="<?php lang_active('id') ?>"><a href="/ina/<?php echo $page ?>">ID</a></li>
+                    <li class="<?php lang_active('') ?>"><a href="/<?php echo $page ?>">EN</a></li>
+                    <li class="<?php lang_active('jp') ?>"><a href="/jp/<?php echo $page ?>">JP</a></li>
                 </ul>
             </div>
         </nav>
