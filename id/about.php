@@ -39,12 +39,18 @@
                 <div class="row">
                     <div class="col-md-5 mb-4 mb-lg-0">
                         <div class="img-wrapper">
-                            <img src="/assets/img/about-1.png" alt="" class="img-fluid">
+                            <picture>
+                                <source srcset="/assets/img/about-1.webp" type="image/webp">
+                                <img src="/assets/img/about-1.jpg" alt="" class="img-fluid">
+                            </picture>
                         </div>
                     </div>
                     <div class="offset-md-2 col-md-5 mb-4 mb-lg-0">
                         <div class="img-wrapper">
-                            <img src="/assets/img/about-2.png" alt="" class="img-fluid">
+                            <picture>
+                                <source srcset="/assets/img/about-2.webp" type="image/webp">
+                                <img src="/assets/img/about-2.jpg" alt="" class="img-fluid">
+                            </picture>
                         </div>
                     </div>
                 </div>

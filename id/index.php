@@ -36,10 +36,30 @@
 <section class="mb-5 carousel">
     <div class="container">
         <div class="carousel__slide">
-            <div class="slide__item" data-label="Laporan Harian Semua Karyawan"><img class="w-100" src="/assets/img/carousel-1.png" alt=""></div>
-            <div class="slide__item" data-label="Statistik untuk tiap proyek"><img class="w-100" src="/assets/img/carousel-2.png" alt=""></div>
-            <div class="slide__item" data-label="Statistik kerja secara keseluruhan"><img class="w-100" src="/assets/img/carousel-3.png" alt=""></div>
-            <div class="slide__item" data-label="Laporan per Individu"><img class="w-100" src="/assets/img/carousel-4.png" alt=""></div>
+            <div class="slide__item" data-label="Laporan Harian Semua Karyawan">
+                <picture>
+                    <source srcset="/assets/img/carousel-1.webp" type="image/webp">
+                    <img class="w-100" src="/assets/img/carousel-1.jpg" alt="">
+                </picture>
+            </div>
+            <div class="slide__item" data-label="Statistik untuk tiap proyek">
+                <picture>
+                    <source srcset="/assets/img/carousel-2.webp" type="image/webp">
+                    <img class="w-100" src="/assets/img/carousel-2.jpg" alt="">
+                </picture>
+            </div>
+            <div class="slide__item" data-label="Statistik kerja secara keseluruhan">
+                <picture>
+                    <source srcset="/assets/img/carousel-3.webp" type="image/webp">
+                    <img class="w-100" src="/assets/img/carousel-3.jpg" alt="">
+                </picture>
+            </div>
+            <div class="slide__item" data-label="Laporan per Individu">
+                <picture>
+                    <source srcset="/assets/img/carousel-4.webp" type="image/webp">
+                    <img class="w-100" src="/assets/img/carousel-4.jpg" alt="">
+                </picture>
+            </div>
         </div>
     </div>
 </section>
@@ -52,7 +72,10 @@
                 <p>Dengan Nippo, perusahaan dapat mengetahui laporan harian kerja karyawan secara komprehensif sehingga manajer dapat menggunakannya sebagai bahan pertimbangan untuk melakukan evaluasi kinerja para karyawan.</p>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="/assets/img/nippo_1.png" alt="" class="img-fluid mb-3 mb-lg-0">
+                <picture>
+                    <source srcset="/assets/img/nippo_1.webp" type="image/webp">
+                    <img src="/assets/img/nippo_1.jpg" alt="" class="img-fluid mb-3 mb-lg-0">
+                </picture>
             </div>
         </div>
     </div>
@@ -124,7 +147,10 @@
         <h4 class="section-title section-title--left-line">Keuntungan Menggunakan Nippo</h4>
         <div class="row">
             <div class="col-md-6">
-                <img src="/assets/img/benefit.png" alt="" class="img-fluid mb-3 mb-md-0">
+                <picture>
+                    <source srcset="/assets/img/benefit.webp" type="image/webp">
+                    <img src="/assets/img/benefit.png" alt="" class="img-fluid mb-3 mb-md-0">
+                </picture>
             </div>
             <div class="col-md-6">
                 <ol class="benefit__list">

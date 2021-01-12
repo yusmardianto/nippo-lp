@@ -144,7 +144,8 @@ body {
 
 /* interest */
 .interest > .container {
-    background: url('/assets/img/bg-interest.png') center/cover no-repeat;
+    background: url('/assets/img/bg-interest.jpg') center/cover no-repeat;
+    background-image: url("/assets/img/bg-interest.webp");
     color: #fff;
     height: 140px;
     display: flex;

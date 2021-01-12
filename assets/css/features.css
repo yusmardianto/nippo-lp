@@ -1,6 +1,7 @@
 /* feature hero */
 .features-hero {
-    background: url('/assets/img/bg-features.png') center/cover no-repeat;
+    background: url('/assets/img/bg-features.jpg') center/cover no-repeat;
+    background-image: url("/assets/img/bg-features.webp");
     min-height: 280px;
     display: flex;
     align-items: flex-end;

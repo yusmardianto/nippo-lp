@@ -38,11 +38,27 @@
 <section class="mb-5 carousel">
     <div class="container">
         <div class="carousel__slide">
-            <div class="slide__item" data-label="Daily Reporting of all employees"><img class="w-100" src="/assets/img/carousel-1.png" alt="">
+            <div class="slide__item" data-label="Daily Reporting of all employees">
+                <picture>
+                    <source srcset="/assets/img/carousel-1.webp" type="image/webp">
+                    <img class="w-100" src="/assets/img/carousel-1.jpg" alt="">
+                </picture>
             </div>
-            <div class="slide__item" data-label="Statistic for each projects"><img class="w-100" src="/assets/img/carousel-2.png" alt=""></div>
-            <div class="slide__item" data-label="Task Overview"><img class="w-100" src="/assets/img/carousel-3.png" alt=""></div>
-            <div class="slide__item" data-label="Individual Report"><img class="w-100" src="/assets/img/carousel-4.png" alt=""></div>
+            <div class="slide__item" data-label="Statistic for each projects">
+                <picture>
+                    <source srcset="/assets/img/carousel-2.webp" type="image/webp">
+                    <img class="w-100" src="/assets/img/carousel-2.jpg" alt=""></div>
+                </picture>
+            <div class="slide__item" data-label="Task Overview">
+                <picture>
+                    <source srcset="/assets/img/carousel-3.webp" type="image/webp">
+                    <img class="w-100" src="/assets/img/carousel-3.jpg" alt=""></div>
+                </picture>
+            <div class="slide__item" data-label="Individual Report">
+                <picture>
+                    <source srcset="/assets/img/carousel-4.webp" type="image/webp">
+                    <img class="w-100" src="/assets/img/carousel-4.jpg" alt=""></div>
+                </picture>
         </div>
     </div>
 </section>
@@ -138,7 +154,10 @@
         <h4 class="section-title section-title--left-line">Benefits of using Nippo</h4>
         <div class="row">
             <div class="col-md-6">
-                <img src="/assets/img/benefit.png" alt="" class="img-fluid mb-3 mb-md-0">
+                <picture>
+                    <source srcset="/assets/img/benefit.webp" type="image/webp">
+                    <img src="/assets/img/benefit.png" alt="" class="img-fluid mb-3 mb-md-0">
+                </picture>
             </div>
             <div class="col-md-6">
                 <ol class="benefit__list">
