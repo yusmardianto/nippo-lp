@@ -13,4 +13,7 @@ Header set Expires "Thu, 19 Nov 1981 08:52:00 GMT"
 RewriteEngine on
 ErrorDocument 404 /404.php
 
+# redirect /ina to /id
+RewriteRule ^ina/(.*)$ /id/$1 [R=302,NE,L]
+
 

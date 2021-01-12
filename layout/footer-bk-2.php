@@ -60,27 +60,3 @@
         </div>
     </div>
 </section>
-	
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/slick.min.js"></script>		
-<script src="/assets/js/jquery.matchHeight-min.js"></script>
-<script src="/assets/js/main.js"></script>
-<?php if (isset($add_js)) echo $add_js ?>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "XXXXXX",
-            "postalCode": "XXXXXX",
-            "streetAddress": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        },
-        "logo": "XXXXXX",
-        "email": "XXXXXX",
-        "telephone": "XXXXXX"
-    }
-</script>
-</body>
-</html>

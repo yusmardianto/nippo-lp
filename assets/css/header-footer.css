@@ -4,6 +4,11 @@
     padding-bottom: 30px;
 }
 
+.header .header__lang > li,
+.header .header__lang > li > a {
+    transition: all .15s ease-in-out;
+}
+
 .header .header__lang > li {
     background-color: var(--l-gray);
     display: inline-block;
@@ -45,32 +50,39 @@
     text-align: center;
 }
 
+.header .navbar-nav > li > a,
+.header .navbar-nav > .nav-item::after {
+    transition: all .15s ease-in-out;
+}
+
 .header .navbar-nav > li > a {
     color: #000;
 }
 
-.header .navbar-nav > .nav-item.active, 
-.header .navbar-nav > .nav-item:hover {
-    background: linear-gradient(var(--primary),var(--primary)) bottom/calc(100% - 3px) 3px no-repeat;
+.header .navbar-nav > .nav-item {
+    position: relative;
+}
+
+.header .navbar-nav > .nav-item::after {
+    opacity: 0;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: calc(100% - 3px);
+    background-color: var(--primary);
+}
+
+.header .navbar-nav > .nav-item.active::after, 
+.header .navbar-nav > .nav-item:hover::after {
+    opacity: 1;
 }
 
 .header .navbar-nav > .nav-item.active > a, 
 .header .navbar-nav > .nav-item:hover > a {
     color: var(--primary);
-}
-
-@media (max-width: 991.98px) {
-    .header .navbar-nav > .nav-item.active, 
-    .header .navbar-nav > .nav-item:hover {
-        background-size: 30% 3px;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .header .navbar-nav > .nav-item.active, 
-    .header .navbar-nav > .nav-item:hover {
-        background-size: 50% 3px;
-    }
 }
 /* end header */
 
@@ -149,13 +161,6 @@
 .footer ul.footer__social > a > li > i {
     font-size: 20px;
 }
-
-@media (max-width: 767.98px) {
-    .footer ul.footer__contact a {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-} 
 /* end footer */
 
 /* copyright */
@@ -166,3 +171,27 @@
     font-size: 12px;
 }
 /* end copyright */
+
+
+
+@media (max-width: 991.98px) {
+    /* header */
+    .header .navbar-nav > .nav-item.active, 
+    .header .navbar-nav > .nav-item:hover {
+        background-size: 30% 3px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* header */
+    .header .navbar-nav > .nav-item.active, 
+    .header .navbar-nav > .nav-item:hover {
+        background-size: 50% 3px;
+    }
+
+    /* footer */
+    .footer ul.footer__contact a {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

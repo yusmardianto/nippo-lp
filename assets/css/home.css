@@ -1,6 +1,7 @@
 /* hero */
 .hero {
-    background: url("/assets/img/bg-home.png") center/cover no-repeat;
+    background: url("/assets/img/bg-home.jpg") center/cover no-repeat;
+    background-image: url("/assets/img/bg-home.webp");
     background-color: #267E74;
     min-height: 675px;
     display: flex;
@@ -107,6 +108,11 @@
     background-position-y: center;
     background-repeat: no-repeat;
     background-size: 12px;
+    transition: background-color .15s ease-in-out;
+}
+.carousel .slick-next:hover,
+.carousel .slick-prev:hover {
+    background-color: #555;
 }
 .carousel .slick-next {
     background-image: url('/assets/icon/right-arrow.svg');
