@@ -45,7 +45,7 @@
         <link href="/assets/css/header-footer.css" rel="stylesheet">
         <?php if (isset($add_css)) echo $add_css ?>
         
-        <?php if ($_SERVER['HTTP_HOST'] == 'nippo-lp.test') { ?>
+        <?php if ($_SERVER['HTTP_HOST'] == 'nippo.id') { ?>
             <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172657169-1"></script>
             <script>
@@ -68,7 +68,7 @@
     </head>
 
     <body class="jp-page">
-        <?php if ($_SERVER['HTTP_HOST'] == 'nippo-lp.test') { ?>
+        <?php if ($_SERVER['HTTP_HOST'] == 'nippo.id') { ?>
             <!-- Google Tag Manager (noscript) -->
             <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBWKGBV"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
