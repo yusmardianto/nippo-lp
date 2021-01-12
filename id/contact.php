@@ -61,7 +61,7 @@
     </div>
 </section>
 
-<section class="contact__footer">
+<section class="mb-5 contact__footer">
     <div class="container text-center">
         <p>Untuk respon langsung, hubungi kami pada jam kantor: <br>
         <b>09.00 - 17.00 (Senin - Jumat)</b></p>            

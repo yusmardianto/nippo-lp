@@ -61,7 +61,7 @@
     </div>
 </section>
 
-<section class="contact__footer">
+<section class="mb-5 contact__footer">
     <div class="container text-center">
         <p>If you want an immediate response, get in touch with us during office hours: <br>
         <b>09.00 - 17.00 (Mon-Fri)</b></p>            

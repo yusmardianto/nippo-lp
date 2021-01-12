@@ -146,7 +146,7 @@
     </div>
 </section>
 
-<section class="features-faq" id="faq">
+<section class="features-faq mb-5" id="faq">
     <div class="container">
         <h4 class="section-title text-center">FAQ</h4>
         <div class="row">
