@@ -22,6 +22,13 @@
         <!-- Canonical -->
         <link rel="canonical" href=<?php if (isset($og_image)) echo '"'.$link_canonical.'"' ?> />  
 
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
         <!-- Bootstrap -->
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
         

@@ -35,7 +35,7 @@
 .pricing-amount__details .details__price::before,
 .pricing-amount__details .details__price::after {
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: 16px;
     font-weight: 300;
 }
