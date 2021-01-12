@@ -15,7 +15,7 @@
     
     $page = 'contact.php';
 
-    include($_SERVER['DOCUMENT_ROOT'].'./layout/header.php');
+    include($_SERVER['DOCUMENT_ROOT'].'/layout/header.php');
 ?>
 
 <section class="contact__headline">
@@ -73,9 +73,9 @@
     </div>
 </section>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'./layout/interest.php') ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'./layout/online-meeting.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/layout/interest.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/layout/online-meeting.php') ?>
 <?php 
     $add_js = '<script src="/assets/js/contact.js"></script>';
-    include($_SERVER['DOCUMENT_ROOT'].'./layout/footer.php') 
+    include($_SERVER['DOCUMENT_ROOT'].'/layout/footer.php') 
 ?>

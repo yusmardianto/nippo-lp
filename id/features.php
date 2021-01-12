@@ -15,7 +15,7 @@
     
     $page = 'features.php';
 
-    include($_SERVER['DOCUMENT_ROOT'].'./id/layout/header.php');
+    include($_SERVER['DOCUMENT_ROOT'].'/id/layout/header.php');
 ?>
 
 <section class="features-hero">
@@ -238,6 +238,6 @@
     </div>
 </section>
     
-<?php include($_SERVER['DOCUMENT_ROOT'].'./id/layout/interest.php') ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'./layout/online-meeting.php') ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'./id/layout/footer.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/id/layout/interest.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/layout/online-meeting.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/id/layout/footer.php') ?>

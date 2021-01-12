@@ -15,7 +15,7 @@
     
     $page = 'about.php';
 
-    include($_SERVER['DOCUMENT_ROOT'].'./layout/header.php');
+    include($_SERVER['DOCUMENT_ROOT'].'/layout/header.php');
 ?>
 
 <section class="about">
@@ -71,6 +71,6 @@
     </div>
 </section>
    
-<?php include($_SERVER['DOCUMENT_ROOT'].'./layout/interest.php') ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'./layout/online-meeting.php') ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'./layout/footer.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/layout/interest.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/layout/online-meeting.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/layout/footer.php') ?>
