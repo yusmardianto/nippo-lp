@@ -1,13 +1,13 @@
 <?php
-    $meta_description = 'Nippo is a Daily Reporting Tool used for employee evaluation and man hour cost management, facilitating better productivity & remote work.';
+    $meta_description = '日報を通して従業員の働き方を可視化し、HR業務を効率化、社内のコミュニケーションを活性化することを可能にするクラウドツールNippoの紹介です。インドネシアのITコンサルティング会社LOGIQUEが開発販売している日報管理ツールです。客観的で数字に基づいた人事評価を行うことを可能にします。';
     $meta_keyword = 'Nippo, daily reporting tool, web-based application, cost effectiveness, assists managers, tool for managers, productivity tool, employee productivity, daily work tool, staff evaluation, employee evaluation, Man-Hour cost management, staff cost management, Remote worker, remote work, Internal communication, human resources tool, management tool';
 
-    $og_title = 'Nippo | A Daily Reporting Tool for Enhanced Employee Evaluation & Cost Management';
+    $og_title = '日報でHR業務を効率化＆生産性向上 | Nippo';
     $og_url = 'https://nippo.id';
     $og_image = 'https://nippo.id/assets/img/ogp/ogp-index.jpg';
-    $og_description = 'Nippo is a Cloud Based Daily Reporting Tool: Evaluate Employee Performances Objectively through data based reports; determine better cost management solutions for enhanced remote work.';
+    $og_description = '日報を通して従業員の働き方を可視化し、HR業務を効率化、社内のコミュニケーションを活性化することを可能にするクラウドツールNippoの紹介です。';
 
-    $page_title = 'Nippo | A Daily Reporting Tool for Employee Evaluation';
+    $page_title = '日報でHR業務を効率化＆生産性向上 | Nippo | LOGIQUEインドネシア';
 
     $link_canonical = 'https://nippo.id/jp/';
 

@@ -1,13 +1,13 @@
 <?php
-    $meta_description = 'Nippo offers a cloud based employee reporting system, utilized for productivity management and employee evaluation. It also facilitates better';
+    $meta_description = 'Nippoは日報を通して従業員が何を、何時間、誰と共に、作業したのかを明確にします。部署別、プロジェクト別、タスク別の原価分析が可能です。従業員間で相互評価しあえるので社内のコミュニケーションを活性化します。残業時間の計算などのHR業務を効率化する副次効果もあります。';
     $meta_keyword = 'Daily Reporting System, Employee Management, supervisor tool, daily reporting, employee assessment, employee evaluation, annual evaluation, project management, working hours, task summary, Nippo, productivity management, cost management, task management';
 
-    $og_title = 'Nippo | A Daily Reporting & Employee Management Tool';
+    $og_title = '日報で社内コミュニケーションを円滑化 | Nippo';
     $og_url = 'https://nippo.id';
     $og_image = 'https://nippo.id/assets/img/ogp/ogp-features.jpg';
-    $og_description = "Nippo is a cloud based employee reporting system, utilized for productivity management and employee evaluation, also facilitating better internal communication through a 'comments' feature.";
+    $og_description = "Nippoは、インドネシアの会社が日報を通して従業員が何を、何時間、誰と共に、作業したのかを明確にします。";
 
-    $page_title = 'Nippo | Features: A Daily Reporting & Employee Management Tool';
+    $page_title = '日報で社内コミュニケーションを円滑化、公正な人事評価とプロジェクト管理';
 
     $link_canonical = 'https://nippo.id/jp/features.php';
 

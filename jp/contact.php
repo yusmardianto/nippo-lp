@@ -1,13 +1,13 @@
 <?php
-    $meta_description = 'The Contact Us page displays Logique contact information, and allows the users to fill in their name, company, phone number, email and a summary message.';
+    $meta_description = 'Nippoに関するお問い合わせはこのページからお願いいたします。インドネシアに展開している日系企業に有益なツールNippo！日報を通して従業員の働き方を可視化し、客観的な人事評価を可能にし、HR業務を効率化、社内のコミュニケーションを活性化するクラウドツールです。';
     $meta_keyword = 'Contact Us, Nippo, Contact Logique, fill out form';
 
-    $og_title = 'Nippo | Logique Digital Indonesia | Contact Us';
+    $og_title = 'インドネシアの日報管理ツールNippo';
     $og_url = 'https://nippo.id';
     $og_image = 'https://nippo.id/assets/img/ogp/ogp-contact.jpg';
-    $og_description = 'Nippo | Contact Us';
+    $og_description = 'Nippoに関するお問い合わせはこのページからお願いいたします。インドネシアに展開している日系企業に有益なツールNippo！';
 
-    $page_title = 'Nippo | Contact Us';
+    $page_title = 'インドネシアの日報管理ツールNippo | 人事評価 | 原価管理';
 
     $link_canonical = 'https://nippo.id/jp/contact.php';
 

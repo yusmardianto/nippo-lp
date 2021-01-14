@@ -1,13 +1,13 @@
 <?php
-    $meta_description = 'Through Nippo, HR managers can view the daily reports of employees, & serve as an Cloud Management & HR tool for employee evaluation.';
+    $meta_description = 'インドネシアに展開している日系企業に有益なツールNippo！日報を通して従業員の働き方を可視化し、客観的な人事評価を可能にし、HR業務を効率化、社内のコミュニケーションを活性化するクラウドツールNippoの紹介です。開発販売元のLOGIQUEにお問い合わせください。';
     $meta_keyword = 'Nippo, daily report, tool for HR, HR tool, HR Managers, Tool for supervisors, Human Resources website, employee evaluation tool, internal communication, daily report, cloud management, LOGIQUE';
 
-    $og_title = 'Nippo | A Daily Reporting Tool for Enhanced Employee Evaluation & Cost Management';
+    $og_title = '人事評価と原価管理をインドネシアの日報管理ツールNippoで';
     $og_url = 'https://nippo.id';
     $og_image = 'https://nippo.id/assets/img/ogp/ogp-index.jpg';
-    $og_description = 'Nippo is a Cloud Based Daily Reporting Tool: Evaluate Employee Performances Objectively through data based reports; determine better cost management solutions for enhanced remote work.';
+    $og_description = 'インドネシアに展開している日系企業に有益なツールNippo！日報を通して従業員の働き方を可視化し、客観的な人事評価を可能にします。';
 
-    $page_title = 'Nippo | A Daily Reporting Tool for Employee Evaluation';
+    $page_title = '人事評価と原価管理をNippoで | インドネシアの日報管理ツール';
 
     $link_canonical = 'https://nippo.id/jp/about.php';
 

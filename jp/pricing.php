@@ -1,13 +1,13 @@
 <?php
-    $meta_description = 'The Nippo Pricing page details its total cost & fees, subscribing procedure, ageement & consultation process, invoice and purchase order.';
+    $meta_description = 'Nippoは月額1,000,000ルピア（IDR）からご利用可能です。日報を通して従業員の働き方を可視化し、HR業務を効率化、社内のコミュニケーションを活性化することを可能にします。インドネシアのITコンサルティング会社LOGIQUEが開発販売しています。';
     $meta_keyword = 'Nippo, nippo fees, nippo, cost, subscribing procedure, agreement & consultation, Nippo sales, nippo online form, nippo whatsapp, nippo call, installation process, nippo invoice, purchase order, terms and agreement, payment terms, nippo number of users, nippo total cost';
 
-    $og_title = 'Nippo | Pricing';
+    $og_title = 'インドネシアの日報管理クラウドツールNippo';
     $og_url = 'https://nippo.id';
     $og_image = 'https://nippo.id/assets/img/ogp/ogp-pricing.jpg';
-    $og_description = 'The Nippo Pricing page details the total cost, subscribing procedure, ageement & consultation process, invoice and purchase order involved in using the Cloud Based Employee Management system.';
+    $og_description = 'Nippoは月額1,000,000ルピア（IDR）からご利用可能です。日報を通して従業員の働き方を可視化し、HR業務を効率化、社内のコミュニケーションを活性化することを可能にします。';
 
-    $page_title = 'Nippo | Pricing & Fees';
+    $page_title = 'インドネシアの日報管理クラウドツールNippo';
 
     $link_canonical = 'https://nippo.id/jp/pricing.php';
 

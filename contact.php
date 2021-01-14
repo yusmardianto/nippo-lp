@@ -5,7 +5,7 @@
     $og_title = 'Nippo | Logique Digital Indonesia | Contact Us';
     $og_url = 'https://nippo.id';
     $og_image = 'https://nippo.id/assets/img/ogp/ogp-contact.jpg';
-    $og_description = 'Nippo | Contact Us';
+    $og_description = 'Contact Logique for information about the Employee Reporting Tool, Nippo; submit your name, phone number, email and a summary message. We will be more than happy to respond to any questions you might have.';
 
     $page_title = 'Nippo | Contact Us';
 
