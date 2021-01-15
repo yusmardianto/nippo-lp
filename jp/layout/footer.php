@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-3 mb-md-0">
-                <a class="d-block mb-3" href="/"><img src="/assets/img/nippo-white.png" alt="Nippo" width="200"></a>
+                <a class="d-block mb-3" href="/jp"><img src="/assets/img/nippo-white.png" alt="Nippo" width="200"></a>
                 <div class="mb-2">
                     <span class="mr-2">by:</span>
                     <a href="https://www.logique.co.id"><img class="img-fluid" src="/assets/img/lgq.png" width="120" alt="LOGIQUE DIGITAL INDONESIA"></a>
@@ -21,20 +21,20 @@
                 <div class="row">
                     <div class="col-md-4 col-6">
                         <ul class="text-center text-sm-left">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about.php">About Nippo</a></li>
-                            <li><a href="/features.php">Features</a></li>
-                            <li><a href="/pricing.php">Pricing</a></li>
-                            <li><a href="/features.php#faq">FAQ</a></li>
+                            <li><a href="/jp/">ホーム</a></li>
+                            <li><a href="/jp/about.php">Nippoについて</a></li>
+                            <li><a href="/jp/features.php">機能</a></li>
+                            <li><a href="/jp/pricing.php">価格</a></li>
+                            <li><a href="/jp/features.php#faq">FAQ</a></li>
                         </ul>
                     </div>
                     
                     <div class="col-md-4 col-6">
                         <ul class="text-center text-sm-left">
-                            <li><a href="/contact.php">Contact</a></li>
+                            <li><a href="/jp/contact.php">お問い合わせ</a></li>
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="/pricing.php#subscribe">Subscribing Procedure</a></li>
+                            <li><a href="/jp/pricing.php#subscribe">Subscribing Procedure</a></li>
                         </ul>
                     </div>
 

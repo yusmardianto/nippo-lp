@@ -7,8 +7,6 @@
 /**
 CSS Reset
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Montserrat:wght@300;400&family=Poppins:wght@400;500;600&display=swap');
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,
@@ -47,6 +45,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+body.jp-page {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
 /* color */
 :root {
     --primary: #47e4c2;
@@ -73,9 +75,22 @@ body {
     background-color: var(--primary);
     color: #fff;
 }
+.btn.btn--green:hover {
+    background-color: var(--d-primary);
+}
 .btn.btn--white {
     background-color: #fff;
     color: var(--d-primary);
+}
+.btn.btn--white .arrow-right {
+    transition: all .15s ease-in-out;
+}
+.btn.btn--white:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
+.btn.btn--white:hover .arrow-right {
+    filter: grayscale(1) brightness(0) invert(1);
 }
 /* end btn */
 
@@ -131,7 +146,8 @@ body {
 
 /* interest */
 .interest > .container {
-    background: url('/assets/img/bg-interest.png') center/cover no-repeat;
+    background: url('/assets/img/bg-interest.jpg') center/cover no-repeat;
+    background-image: url("/assets/img/bg-interest.webp");
     color: #fff;
     height: 140px;
     display: flex;
@@ -246,6 +262,11 @@ body {
     -o-animation-fill-mode: forwards;      /* Not implemented yet */
     -ms-animation-fill-mode: forwards;     /* IE 10+ */
     animation-fill-mode: forwards;         /* When the spec is finished */
+}
+
+.online-meeting > button:hover {
+    background-color: var(--d-primary);
+
 }
 
 .online-meeting > button > i {

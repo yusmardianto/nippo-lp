@@ -23,7 +23,7 @@
             <div class="navbar-expand-lg navbar-light">
                 <ul class="header__lang d-none d-lg-block">
                     <li class="<?php lang_active('') ?>"><a href="/<?php echo $page;?>">ENG</a></li>
-                    <li class="<?php lang_active('ina') ?>"><a href="/ina/<?php echo $page;?>">INA</a></li>
+                    <li class="<?php lang_active('id') ?>"><a href="/ina/<?php echo $page;?>">INA</a></li>
                     <!-- <li class="<//?php lang_active('jpn') ?>"><a href="/jpn/<//?php echo $page;?>">JPN</a></li> -->
                 </ul>
 

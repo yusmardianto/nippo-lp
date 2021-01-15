@@ -1,27 +1,27 @@
 <?php
-    $meta_description = 'The Contact Us page displays Logique contact information, and allows the users to fill in their name, company, phone number, email and a summary message.';
+    $meta_description = 'Nippoに関するお問い合わせはこのページからお願いいたします。インドネシアに展開している日系企業に有益なツールNippo！日報を通して従業員の働き方を可視化し、客観的な人事評価を可能にし、HR業務を効率化、社内のコミュニケーションを活性化するクラウドツールです。';
     $meta_keyword = 'Contact Us, Nippo, Contact Logique, fill out form';
 
-    $og_title = 'Nippo | Logique Digital Indonesia | Contact Us';
+    $og_title = 'インドネシアの日報管理ツールNippo';
     $og_url = 'https://nippo.id';
     $og_image = 'https://nippo.id/assets/img/ogp/ogp-contact.jpg';
-    $og_description = 'Contact Logique for information about the Employee Reporting Tool, Nippo; submit your name, phone number, email and a summary message. We will be more than happy to respond to any questions you might have.';
+    $og_description = 'Nippoに関するお問い合わせはこのページからお願いいたします。インドネシアに展開している日系企業に有益なツールNippo！';
 
-    $page_title = 'Nippo | Contact Us';
+    $page_title = 'インドネシアの日報管理ツールNippo | 人事評価 | 原価管理';
 
-    $link_canonical = 'https://nippo.id/contact.php';
+    $link_canonical = 'https://nippo.id/jp/contact.php';
 
     $add_css = '<link href="/assets/css/contact.css" rel="stylesheet">';
     
     $page = 'contact.php';
 
-    include($_SERVER['DOCUMENT_ROOT'].'/layout/header.php');
+    include($_SERVER['DOCUMENT_ROOT'].'/jp/layout/header.php');
 ?>
 
 <section class="contact__headline">
     <div class="container text-center">
         <h1>Contact us</h1>
-        <p>For more information about Nippo, <br>please contact us by filling out the form below.</p>
+        <p>使い方、費用、カスタマイズについてなど <br>Nippoに関することは下記フォームにてお問い合わせください。</p>
     </div>
 </section>
 
@@ -73,9 +73,9 @@
     </div>
 </section>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/layout/interest.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/jp/layout/interest.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/layout/online-meeting.php') ?>
 <?php 
     $add_js = '<script src="/assets/js/contact.js"></script>';
-    include($_SERVER['DOCUMENT_ROOT'].'/layout/footer.php') 
+    include($_SERVER['DOCUMENT_ROOT'].'/jp/layout/footer.php') 
 ?>

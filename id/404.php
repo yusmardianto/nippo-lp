@@ -3,7 +3,7 @@
     
 	$page = '404.php';
 
-    include($_SERVER['DOCUMENT_ROOT'].'/layout/header.php');
+    include($_SERVER['DOCUMENT_ROOT'].'/id/layout/header.php');
 ?>
 	  
 <section class="not-found">
@@ -16,6 +16,6 @@
 			</div>
 		</div>
 	</div>
-</section>	
+</section>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/layout/footer.php') ?>

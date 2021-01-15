@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,15 +19,16 @@
         
         <title><?php echo $page_title ?></title>
 
-        <!-- Canonical -->
-        <link rel="canonical" href=<?php if (isset($og_image)) echo '"'.$link_canonical.'"' ?> />  
-
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
         <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"> -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;500;800&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> -->
+
+        <!-- Canonical -->
+        <link rel="canonical" href=<?php if (isset($og_image)) echo '"'.$link_canonical.'"' ?> />  
 
         <!-- Bootstrap -->
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -66,7 +67,7 @@
 
     </head>
 
-    <body>
+    <body class="jp-page">
         <?php if ($_SERVER['HTTP_HOST'] == 'nippo.id') { ?>
             <!-- Google Tag Manager (noscript) -->
             <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBWKGBV"
@@ -115,22 +116,22 @@
             <div class="collapse navbar-collapse pb-3 pb-lg-0" id="navbarHeader">
                 <ul class="navbar-nav justify-content-between w-100">
                     <li class="nav-item <?php active('') ?>">
-                        <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/jp">ホーム <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item <?php active('about.php') ?>">
-                        <a class="nav-link" href="/about.php">ABOUT NIPPO</a>
+                        <a class="nav-link" href="/jp/about.php">Nippoについて</a>
                     </li>
                     <li class="nav-item <?php active('features.php') ?>">
-                        <a class="nav-link" href="/features.php">FEATURES</a>
+                        <a class="nav-link" href="/jp/features.php">機能</a>
                     </li>
                     <li class="nav-item <?php active('pricing.php') ?>">
-                        <a class="nav-link" href="/pricing.php">PRICING</a>
+                        <a class="nav-link" href="/jp/pricing.php">価格</a>
                     </li>
                     <!-- <li class="nav-item <?//php active('blog.php') ?>">
                         <a class="nav-link" href="blog.php">BLOG</a>
                     </li> -->
                     <li class="nav-item <?php active('contact.php') ?>">
-                        <a class="nav-link" href="contact.php">CONTACT US</a>
+                        <a class="nav-link" href="/jp/contact.php">お問い合わせ</a>
                     </li>
                 </ul>
 

@@ -19,22 +19,22 @@
 
             <div class="col-md-8">
                 <div class="row">
-                    <div class="col-md-4 col-6">
+                    <div class="col-md-4">
                         <ul class="text-center text-sm-left">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about.php">About Nippo</a></li>
-                            <li><a href="/features.php">Features</a></li>
-                            <li><a href="/pricing.php">Pricing</a></li>
-                            <li><a href="/features.php#faq">FAQ</a></li>
+                            <li><a href="/ina/">Home</a></li>
+                            <li><a href="/ina/about.php">Tentang Nippo</a></li>
+                            <li><a href="/ina/features.php">Fitur</a></li>
+                            <li><a href="/ina/pricing.php">Harga</a></li>
+                            <li><a href="/ina/features.php#faq">FAQ</a></li>
                         </ul>
                     </div>
                     
-                    <div class="col-md-4 col-6">
+                    <div class="col-md-4">
                         <ul class="text-center text-sm-left">
-                            <li><a href="/contact.php">Contact</a></li>
+                            <li><a href="/ina/contact.php">Hubungi Kami</a></li>
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="/pricing.php#subscribe">Subscribing Procedure</a></li>
+                            <li><a href="/ina/pricing.php#subscribe">Cara Berlangganan</a></li>
                         </ul>
                     </div>
 
@@ -60,7 +60,7 @@
         </div>
     </div>
 </section>
-	
+
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/slick.min.js"></script>		
