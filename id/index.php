@@ -54,7 +54,7 @@
                     <img class="w-100" src="/assets/img/carousel-3.jpg" alt="">
                 </picture>
             </div>
-            <div class="slide__item" data-label="Laporan per Individu">
+            <div class="slide__item" data-label="Laporan Individu">
                 <picture>
                     <source srcset="/assets/img/carousel-4.webp" type="image/webp">
                     <img class="w-100" src="/assets/img/carousel-4.jpg" alt="">
@@ -149,7 +149,7 @@
             <div class="col-md-6">
                 <picture>
                     <source srcset="/assets/img/benefit.webp" type="image/webp">
-                    <img src="/assets/img/benefit.png" alt="" class="img-fluid mb-3 mb-md-0">
+                    <img src="/assets/img/benefit.jpg" alt="" class="img-fluid mb-3 mb-md-0">
                 </picture>
             </div>
             <div class="col-md-6">

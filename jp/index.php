@@ -37,23 +37,23 @@
 <section class="mb-5 carousel">
     <div class="container">
         <div class="carousel__slide">
-            <div class="slide__item" data-label="日報詳細画面">
+            <div class="slide__item" data-label="従業員の日報一覧">
                 <picture>
                     <source srcset="/assets/img/carousel-1.webp" type="image/webp">
                     <img class="w-100" src="/assets/img/carousel-1.jpg" alt="">
                 </picture>
             </div>
-            <div class="slide__item" data-label="従業員の日報一覧">
+            <div class="slide__item" data-label="作業内容分析画面">
                 <picture>
                     <source srcset="/assets/img/carousel-2.webp" type="image/webp">
                     <img class="w-100" src="/assets/img/carousel-2.jpg" alt=""></div>
                 </picture>
-            <div class="slide__item" data-label="作業内容分析画面">
+            <div class="slide__item" data-label="タスク管理">
                 <picture>
                     <source srcset="/assets/img/carousel-3.webp" type="image/webp">
                     <img class="w-100" src="/assets/img/carousel-3.jpg" alt=""></div>
                 </picture>
-            <div class="slide__item" data-label="タスク管理">
+            <div class="slide__item" data-label="日報詳細画面">
                 <picture>
                     <source srcset="/assets/img/carousel-4.webp" type="image/webp">
                     <img class="w-100" src="/assets/img/carousel-4.jpg" alt=""></div>
@@ -149,7 +149,7 @@
             <div class="col-md-6">
                 <picture>
                     <source srcset="/assets/img/benefit.webp" type="image/webp">
-                    <img src="/assets/img/benefit.png" alt="" class="img-fluid mb-3 mb-md-0">
+                    <img src="/assets/img/benefit.jpg" alt="" class="img-fluid mb-3 mb-md-0">
                 </picture>
             </div>
             <div class="col-md-6">
