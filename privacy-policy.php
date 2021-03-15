@@ -111,6 +111,5 @@
 
 </div>
 
-
 <?php include($_SERVER['DOCUMENT_ROOT'].'/layout/online-meeting.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/layout/footer.php') ?>

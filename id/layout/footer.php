@@ -32,7 +32,7 @@
                     <div class="col-md-4">
                         <ul class="text-center text-sm-left">
                             <li><a href="/ina/contact.php">Hubungi Kami</a></li>
-                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="/ina/terms-condition.php">Terms of Use</a></li>
                             <li><a href="/ina/privacy-policy.php">Privacy Policy</a></li>
                             <li><a href="/ina/pricing.php#subscribe">Cara Berlangganan</a></li>
                         </ul>

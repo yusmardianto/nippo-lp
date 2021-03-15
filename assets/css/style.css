@@ -266,6 +266,12 @@ body.jp-page {
 }
 /* end block color */
 
+/* list */
+.list--disc {
+    list-style: disc;
+}
+/* end list */
+
 /* online-meeting */
 .online-meeting > button {
     position: fixed;
