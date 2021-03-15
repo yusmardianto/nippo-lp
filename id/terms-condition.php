@@ -1,13 +1,13 @@
 <?php
-    $meta_description = 'Nippo is a Daily Reporting Tool used for employee evaluation and man hour cost management, facilitating better productivity & remote work.';
-    $meta_keyword = 'Nippo, daily reporting tool, web-based application, cost effectiveness, assists managers, tool for managers, productivity tool, employee productivity, daily work tool, staff evaluation, employee evaluation, Man-Hour cost management, staff cost management, Remote worker, remote work, Internal communication, human resources tool, management tool';
+    $meta_description = '';
+    $meta_keyword = '';
 
-    $og_title = 'Nippo | A Daily Reporting Tool for Enhanced Employee Evaluation & Cost Management';
+    $og_title = 'Nippo | Syarat dan Ketentuan';
     $og_url = 'https://nippo.id';
     $og_image = 'https://nippo.id/assets/img/ogp/ogp-index.jpg';
     $og_description = 'Nippo is a Cloud Based Daily Reporting Tool: Evaluate Employee Performances Objectively through data based reports; determine better cost management solutions for enhanced remote work.';
 
-    $page_title = 'Nippo | A Daily Reporting Tool for Employee Evaluation';
+    $page_title = 'Nippo | Syarat dan Ketentuan';
 
     $link_canonical = 'https://nippo.id/id/terms-condition.php';
 
