@@ -22,7 +22,7 @@
 
     <section class="mb-5">
         <div class="container">        
-            <h1 class="mb-4 text-center">Terms and Conditions of Dokodemo-Kerja</h1>
+            <h1 class="mb-4 text-center">Terms of Use of Nippo</h1>
             <hr class="">
         </div>
     </section>
@@ -32,7 +32,7 @@
         
             <div class="mb-4">
                 <h4 class="mb-2 font-weight-bold block-color">Introduction</h4>
-                <p class="mb-3">The Standard Terms and Conditions outlined on this webpage should inform your use of “Dokodemo Kerja”, the details of which are accessible at https://dokodemo-kerja.com. Further, the Service “Dokodemo Kerja” (provided by PT LOGIQUE Digital Indonesia) detailed within this webpage will hereinafter collectively be referred to as “The Services.”</p>
+                <p class="mb-3">The Standard Terms and Conditions outlined on this webpage should inform your use of Nippo, the details of which are accessible at <a target="_blank" href="https://nippo.id">https://nippo.id</a> . Further, the Service Nippo (provided by PT LOGIQUE Digital Indonesia) detailed within this webpage will hereinafter collectively be referred to as “The Services.”</p>
                 <p class="mb-3">These Terms will be fully applied in regards to your use of The Services. By using The Services and its features, you have agreed to accept all the Terms and Conditions outlined here. You must not use The Services if you disagree with any of the stated Standard Terms and Conditions. These Terms and Conditions have been generated with the help of Terms And Conditions Template</p>
             </div>
 
