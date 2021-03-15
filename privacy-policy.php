@@ -34,7 +34,7 @@
 
             <div class="mb-4">
                 <h4 class="mb-2 font-weight-bold block-color">User Content</h4>
-                <p>By visiting our website or using our products or services, you agree to the terms of the Privacy Policy outlined in this document, and expressly consent to the processing of your Personal Information according to this Privacy Statement. Personal information may be processed by Dokodemo-Kerja’s developer, LOGIQUE, or one of LOGIQUE’S trusted vendors or other third parties in the country where it was collected as well as other countries where laws regarding the processing of Personal Information may be less stringent.</p>
+                <p>By visiting our website or using our products or services, you agree to the terms of the Privacy Policy outlined in this document, and expressly consent to the processing of your Personal Information according to this Privacy Statement. Personal information may be processed by Nippo’s developer, LOGIQUE, or one of LOGIQUE’S trusted vendors or other third parties in the country where it was collected as well as other countries where laws regarding the processing of Personal Information may be less stringent.</p>
             </div>
 
             <div class="mb-4">
@@ -49,7 +49,7 @@
 
             <div class="mb-4">
                 <h4 class="mb-2 font-weight-bold block-color">Personal Information Collected Via Technology</h4>
-                <p>As you navigate our website, passive information may also be collected, including your Internet Protocol address, browser type, operating system, screen activity, and other forms of information which may be viewed in Google Analytics and HotJar. We also use cookies and navigational data like Uniform Resource Locators (URL) to gather information regarding the date and time of your visit and the information you have searched. This type of information is collected to make our services more useful to our users.</p>
+                <p>As you navigate our website, passive information may also be collected, including your Internet Protocol address, browser type, operating system, and other forms of information which may be viewed in Google Analytics. We also use cookies and navigational data like Uniform Resource Locators (URL) to gather information regarding the date and time of your visit and the information you have searched. This type of information is collected to make our services more useful to our users.</p>
             </div>
 
             <div class="mb-4">

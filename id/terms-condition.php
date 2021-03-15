@@ -39,7 +39,7 @@
             <div class="mb-4">
                 <h4 class="mb-2 font-weight-bold block-color">Intellectual Property Rights</h4>
                 <p class="mb-3">Under these Terms, PT LOGIQUE Digital Indonesia (the Service Provider) and its licensors own all the intellectual property rights and materials contained within The Services.</p>
-                <p class="mb-3">You are granted a limited license based on the stipulations outlined in Dokodemo-Kerja’s Terms of Use, which can be found within The Service’s application form.</p>
+                <p class="mb-3">You are granted a limited license based on the stipulations outlined in Nippo’s Terms of Use, which can be found within The Service’s application form.</p>
             </div>
 
             <div class="mb-4">
