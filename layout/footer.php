@@ -32,8 +32,8 @@
                     <div class="col-md-4 col-6">
                         <ul class="text-center text-sm-left">
                             <li><a href="/contact.php">Contact</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="/terms-condition.php">Terms of Use</a></li>
+                            <li><a href="/privacy-policy.php">Privacy Policy</a></li>
                             <li><a href="/pricing.php#subscribe">Subscribing Procedure</a></li>
                         </ul>
                     </div>

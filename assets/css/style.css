@@ -249,6 +249,29 @@ body.jp-page {
 }
 /* end not found */
 
+/* block color */
+.block-color {
+    position: relative;
+}
+
+.block-color::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 160px;
+    height: 40px;
+    background-color: var(--primary);
+    z-index: -1;
+}
+/* end block color */
+
+/* list */
+.list--disc {
+    list-style: disc;
+}
+/* end list */
+
 /* online-meeting */
 .online-meeting > button {
     position: fixed;
@@ -266,7 +289,6 @@ body.jp-page {
 
 .online-meeting > button:hover {
     background-color: var(--d-primary);
-
 }
 
 .online-meeting > button > i {
@@ -280,7 +302,7 @@ body.jp-page {
     left: 8px; 
     z-index: 20; 
     width: 300px;
-  }
+}
 
 .online-meeting > div > .card {
     border: 3px solid var(--l-gray);
