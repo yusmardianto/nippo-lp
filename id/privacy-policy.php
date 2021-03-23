@@ -63,11 +63,6 @@
             </div>
 
             <div class="mb-4">
-                <h4 class="mb-2 font-weight-bold block-color">Website and Marketing Campaign Information</h4>
-                <p>If you have previously or are currently using our products or services in order to create or market a website or edit the content of a website for yourself or for a company or organization, the information on the website or on the marketing campaign shall not be considered Personal Information and our use of that information shall not be restricted in any way. For example, in order to drive traffic to your website so as to make it more accessible to prospective users, it may be necessary to disclose certain information to third-party services and to the general public, namely keywords about your business, your business name, a general or specific description about your business, information about your location, and/or information about your products. Additionally, unless otherwise restricted in a fully executed Business Agreement between you and us, we reserve the right to publish the website, marketing campaign, and/or a description of the products and services we are providing you in our online portfolio and news releases.</p>
-            </div>
-
-            <div class="mb-4">
                 <h4 class="mb-2 font-weight-bold block-color">Use of Information</h4>
                 <p>In general, Personal Information submitted to us will be either used to fulfill services and deliver the products you have ordered, respond to requests that you have made, process transactions, facilitate a request for a quote, or to aid us in serving you better. We will not share your Personal Information with other businesses unless (a) we feel they can better fulfill your consultation or service request(s), or (b) it is necessary for us to deliver the products or to perform the services or you have ordered from us, or (c) the business is providing products or services to us. We may use your Personal Information to send you electronic newsletters or promotional emails as well as information and offers about our products and services, however, you may “opt-out” at any time by following the unsubscribe instructions provided in the e-mail or by replying with “unsubscribe” if no unsubscribe instructions are available.</p>
             </div>
@@ -84,11 +79,6 @@
             <div class="mb-4">
                 <h4 class="mb-2 font-weight-bold block-color">Choices Regarding Your Personal Information</h4>
                 <p>Should you decide to stop receiving email notifications or newsletters from us, you will have the opportunity to “opt-out” by following the unsubscribe instructions provided in the email or replying with “unsubscribe” if an unsubscribe option is not available. If at any time you wish to subscribe so as to receive regular notifications from us, you may do so by contacting us at info@logique.co.id. Despite your indicated email preferences, we may send you emails regarding updates to legal notices applicable to the account you have created with us. From time to time, we may contact you by telephone to offer you products or services, which we believe may be valuable to you. Should you prefer not to receive such calls, please advise the representative who has contacted you.</p>
-            </div>
-
-            <div class="mb-4">
-                <h4 class="mb-2 font-weight-bold block-color">Links to Other Sites</h4>
-                <p>Our provision of a link to any other website locations include websites we have created for third parties, websites we have hosted for third parties, and websites linked to in our portfolio. Our content and blog is presented for your convenience, and does not signify our endorsement of other websites, their location or content. We have no control over, do not review, and cannot be responsible for these external websites or their content. Please be aware that the terms of our Privacy Statement does not apply to these external websites.</p>
             </div>
 
             <div class="mb-4">
