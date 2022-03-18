@@ -27,6 +27,25 @@
     //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
     // and put it here
     $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
+
+    if (isset($_POST['submitted'])) {
+        if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+            $secret = '6LcuHywUAAAAAEfJ-sZem8CzGVYIUMcxoT0jRhtW';
+            // $secret = '6Lf3pA8UAAAAAEECs5-RC010LQ3ehBt76aKv8Rxb';
+            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+            // print_r($verifyResponse); exit;
+            $responseData = json_decode($verifyResponse);
+            if ($responseData->success) {
+                if ($formproc->ProcessForm()) {
+                    $msg = "<div class='alert alert-success' id='msg' role='alert'>Thank you for sending us inquiry!</div>";
+                }
+            } else {
+                $msg = "<div class='alert alert-warning' id='msg' role='alert'>reCAPTCHA verification failed, please try again.</div>";
+            }
+        } else {
+            $msg = "<div class='alert alert-warning' id='msg' role='alert'>Please click the reCAPTCHA box.</div>";
+        }
+    }
 ?>
 
 <section class="contact__headline">
@@ -41,6 +60,9 @@
         <div class="row">
             <div class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
                 <form method="POST" id="registration" onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>'>
+                    <input type='hidden' name='submitted' id='submitted' value='1' />
+                    <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
+                    <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
                     <div class="row">
                         <div class="col-md-6">
                             <label for="contact_name">Name <span class="text-danger">*</span></label>
@@ -63,7 +85,7 @@
                             <textarea class="form-control" name="contact_message" id="contact_message" rows="4" ></textarea>
                         </div>
                         <div class="col text-center text-md-left">
-                            <button class="btn btn--green btn--round btn--main" type="submit">Submit &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></button>
+                            <button class="btn btn--green btn--round btn--main" type="submit" onclick="ga('send', 'event', 'Button-Kirim', 'Action-Click', 'Button-Kirim-Label');">Submit &nbsp; <img class="arrow-right arrow-right--white" src="/assets/icon/arrow-right.svg" alt="" width="15"></button>
                         </div>
                     </div>
                 </form>

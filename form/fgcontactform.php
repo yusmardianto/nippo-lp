@@ -25,9 +25,11 @@ class FGContactForm
     var $receipients;
     var $errors;
     var $error_message;
-    var $name;
-    var $email;
-    var $message;
+    var $contact_name;
+    var $contact_company;
+    var $contact_phone;
+    var $contact_email;
+    var $contact_message;
     var $from_address;
     var $form_random_key;
     var $conditional_field;
@@ -138,17 +140,25 @@ class FGContactForm
         return htmlentities($_SERVER['PHP_SELF']);
     }
 
-    function GetName()
+    function GetContactName()
     {
-        return $this->name;
+        return $this->contact_name;
     }
-    function GetEmail()
+    function GetContactCompany()
     {
-        return $this->email;
+        return $this->contact_company;
     }
-    function GetMessage()
+    function GetContactPhone()
     {
-        return htmlentities($this->message,ENT_QUOTES,"UTF-8");
+        return $this->contact_phone;
+    }
+    function GetContactEmail()
+    {
+        return $this->contact_email;
+    }
+    function GetContactMessage()
+    {
+        return htmlentities($this->contact_message,ENT_QUOTES,"UTF-8");
     }
 
 /*--------  Private (Internal) Functions -------- */
@@ -191,11 +201,11 @@ class FGContactForm
                 } else { // non array (only one email)
                     $this->mailer->addAddress($this->receipent);
                 }
-                $this->mailer->addReplyTo($this->email);
+                $this->mailer->addReplyTo($this->contact_email);
             } else {
                 // You can change below value as static if needed
                 $the_receipent = (is_array($this->receipent)) ? $this->receipent[0] : $this->receipent ;
-                $this->mailer->addAddress($this->email, $this->name);
+                $this->mailer->addAddress($this->contact_email, $this->contact_name);
                 $this->mailer->addReplyTo($the_receipent);
                 
             }
@@ -247,7 +257,7 @@ class FGContactForm
         $ret_str='';
         foreach($_POST as $key=>$value) {
             if (!$this->IsInternalVariable($key)) {
-                if (in_array($key, array('companyname', 'name', 'phone', 'email'))) {
+                if (in_array($key, array('contact_name','contact_company','contact_phone','contact_email','contact_message'))) {
                     $value = htmlentities($value,ENT_QUOTES,"UTF-8");
                     $value = nl2br($value);
                     $key = ucfirst($key);
@@ -361,19 +371,19 @@ class FGContactForm
         }
 
         //email validations
-        if(empty($_POST['email']))
+        if(empty($_POST['contact_email']))
         {
             $this->add_error("Please provide your email address");
             $ret = false;
         }
         else
-        if(strlen($_POST['email'])>50)
+        if(strlen($_POST['contact_email'])>50)
         {
             $this->add_error("Email address is too big!");
             $ret = false;
         }
         else
-        if(!$this->validate_email($_POST['email']))
+        if(!$this->validate_email($_POST['contact_email']))
         {
             $this->add_error("Please provide a valid email address");
             $ret = false;
@@ -387,7 +397,7 @@ class FGContactForm
         }*/
 
         //message validaions
-        if(strlen($_POST['message'])>2048)
+        if(strlen($_POST['contact_message'])>2048)
         {
             $this->add_error("Message is too big!");
             $ret = false;
@@ -441,10 +451,11 @@ class FGContactForm
     /*Collects clean data from the $_POST array and keeps in internal variables.*/
     function CollectData()
     {
-        $this->name = $this->Sanitize($_POST['name']);
-        $this->email = $this->Sanitize($_POST['email']);
-        $this->phone = $this->Sanitize($_POST['phone']);
-        //$this->country = $this->Sanitize($_POST['country']);
+        $this->contact_name = $this->Sanitize($_POST['contact_name']);
+        $this->contact_company = $this->Sanitize($_POST['contact_company']);
+        $this->contact_phone = $this->Sanitize($_POST['contact_phone']);
+        $this->contact_email = $this->Sanitize($_POST['contact_email']);
+        $this->contact_message = $this->Sanitize($_POST['contact_message']);
         
         /*newline is OK in the message.*/
         $this->message = $this->StripSlashes($_POST['message']);
@@ -454,9 +465,9 @@ class FGContactForm
     {
         array_push($this->errors,$error);
     }
-    function validate_email($email)
+    function validate_email($contact_email)
     {
-        return filter_var($email, FILTER_VALIDATE_EMAIL) && preg_match("/^(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){255,})(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){65,}@)(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22))(?:\\.(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22)))*@(?:(?:(?!.*[^.]{64,})(?:(?:(?:xn--)?[a-z0-9]+(?:-[a-z0-9]+)*\\.){1,126}){1,}(?:(?:[a-z][a-z0-9]*)|(?:(?:xn--)[a-z0-9]+))(?:-[a-z0-9]+)*)|(?:\\[(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){7})|(?:(?!(?:.*[a-f0-9][:\\]]){7,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?)))|(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){5}:)|(?:(?!(?:.*[a-f0-9]:){5,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3}:)?)))?(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))(?:\\.(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))){3}))\\]))$/i", $email);
+        return filter_var($contact_email, FILTER_VALIDATE_EMAIL) && preg_match("/^(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){255,})(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){65,}@)(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22))(?:\\.(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22)))*@(?:(?:(?!.*[^.]{64,})(?:(?:(?:xn--)?[a-z0-9]+(?:-[a-z0-9]+)*\\.){1,126}){1,}(?:(?:[a-z][a-z0-9]*)|(?:(?:xn--)[a-z0-9]+))(?:-[a-z0-9]+)*)|(?:\\[(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){7})|(?:(?!(?:.*[a-f0-9][:\\]]){7,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?)))|(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){5}:)|(?:(?!(?:.*[a-f0-9]:){5,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3}:)?)))?(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))(?:\\.(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))){3}))\\]))$/i", $contact_email);
     }
 
     function validate_country($country)
