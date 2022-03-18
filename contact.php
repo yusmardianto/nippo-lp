@@ -29,21 +29,8 @@
     $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
 
     if (isset($_POST['submitted'])) {
-        if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
-            $secret = '6LcuHywUAAAAAEfJ-sZem8CzGVYIUMcxoT0jRhtW';
-            // $secret = '6Lf3pA8UAAAAAEECs5-RC010LQ3ehBt76aKv8Rxb';
-            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
-            // print_r($verifyResponse); exit;
-            $responseData = json_decode($verifyResponse);
-            if ($responseData->success) {
-                if ($formproc->ProcessForm()) {
-                    $msg = "<div class='alert alert-success' id='msg' role='alert'>Thank you for sending us inquiry!</div>";
-                }
-            } else {
-                $msg = "<div class='alert alert-warning' id='msg' role='alert'>reCAPTCHA verification failed, please try again.</div>";
-            }
-        } else {
-            $msg = "<div class='alert alert-warning' id='msg' role='alert'>Please click the reCAPTCHA box.</div>";
+        if ($formproc->ProcessForm()) {
+            $msg = "<div class='alert alert-success' id='msg' role='alert'>Permintaan Anda Telah Terkirim</div>";
         }
     }
 ?>
@@ -59,7 +46,14 @@
     <div class="container">
         <div class="row">
             <div class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
-                <form method="POST" id="registration" onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>'>
+                <div style="margin-top: 10px;" align="center">
+                    <?php if(isset($msg))
+                        {
+                            echo $msg;
+                        }
+                    ?>
+                </div>
+                <form id="registration" onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
                     <input type='hidden' name='submitted' id='submitted' value='1' />
                     <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
                     <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
@@ -105,7 +99,6 @@
         </ul>
     </div>
 </section>
-
 <?php include($_SERVER['DOCUMENT_ROOT'].'/layout/interest.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/layout/online-meeting.php') ?>
 <?php 

@@ -458,7 +458,7 @@ class FGContactForm
         $this->contact_message = $this->Sanitize($_POST['contact_message']);
         
         /*newline is OK in the message.*/
-        $this->message = $this->StripSlashes($_POST['message']);
+        $this->message = $this->StripSlashes($_POST['contact_message']);
     }
 
     function add_error($error)
