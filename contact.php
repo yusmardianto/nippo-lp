@@ -16,6 +16,17 @@
     $page = 'contact.php';
 
     include($_SERVER['DOCUMENT_ROOT'].'/layout/header.php');
+
+    require_once("./form/fgcontactform.php");
+    $formproc = new FGContactForm();
+
+    //1. Add your email address here.
+    //You can add more than one receipients.
+    $formproc->AddRecipient(['info@logique.co.id']); //<<---Put your email address here
+
+    //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
+    // and put it here
+    $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
 ?>
 
 <section class="contact__headline">
@@ -29,7 +40,7 @@
     <div class="container">
         <div class="row">
             <div class="offset-lg-2 offset-md-1 col-lg-8 col-md-10">
-                <form action="https://formspree.io/sales@dokodemo-kerja.com" method="POST" id="registration">
+                <form method="POST" id="registration" onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>'>
                     <div class="row">
                         <div class="col-md-6">
                             <label for="contact_name">Name <span class="text-danger">*</span></label>
